@@ -1,5 +1,5 @@
 FROM golang:latest
-
+RUN apt-get update && apt-get install -y libmagic-dev
 WORKDIR /go/src/app
 COPY . .
 
