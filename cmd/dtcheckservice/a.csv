@@ -1,0 +1,470 @@
+"Applikation: AE",,,,,,,,,
+"Staging Tabelle","Staging Spalte","Staging 
+Datentyp","Applikation 
+Quelle","Beschreibung","NOT 
+NULL","Lookup 
+Gruppe","Loader","Datenbank
+quelle","gültig 
+ab"
+,,,,"AETAEHI: Spezielle Ausprägungen der Aussetzung der Rückstände",,,,,
+"AE_AETAEHI","FINANZAMT_NR","NUMBER(3)","AETAEHI.FANR","Finanzamtsnummer",,,"SQLLOADER","DB2",2011-04-20
+"AE_AETAEHI","STEUER_NR","NUMBER(7)","AETAEHI.STNR","Steuernummer",,,"SQLLOADER","DB2",2011-04-20
+"AE_AETAEHI","LOESCH_DAT","DATE","AETAEHI.DATLOE","Datum der Löschung des Datensatzes",,,"SQLLOADER","DB2",2011-04-20
+"AE_AETAEHI","AUSSETZUNGSART","NUMBER(1)","AETAEHI.ARTAUS","Art der Aussetzung Werteliste:  '1'--- Aussetzung der Einhebung (AEH), wenn das Attribut: GFC in der Tabelle: AETBUF = 83, oder 84.  '2'... Aussetzung der Einbringung (AEB), wenn das Attribut: GFC in der Tabelle: AETBUF) = 93, oder 96.  '3'... Loeschung (LOE), wenn das Attribut: GFC in der Tabelle: AETBUF = 91, oder 94.  '4'... Nachsicht (NA), wenn das Attribut: GFC in der Tabelle: AETBUF = 92, oder 95.  '5'... AE - Antrag, wenn das Attribut: GFC in der Tabelle: AETBUF = 25  Anmerkung: GFC steht für Geschaeftsfallcode und bezieht sich auf das Attribut GFC in der Tabelle: AETBUF ",,,"SQLLOADER","DB2",2011-04-20
+"AE_AETAEHI","ABGABENART","NUMBER(6)","AETAEHI.AA","Abgabenart Werteliste:  0... Umsatzsteuer  1.. Umsatzsteuer (Fahrzeugeinzelbesteuerung)  2... Umsatzsteuer-Sondervorauszahlung  3... Abzugsteuer Werkvertrag  4... Investitionspraemie  5... Abgabe von alkoholischen Getränken  6... Weinsteuer  8... Sonderabgabe von Erdoel  9... Sonderabgabe von Banken  10... Zinsertragssteuer  11... Kapitalertragssteuer  12... Lohnsteuer  13... Einkommmensteuer  14... Einkommensteuer / beschraenkt steuerpfl.  15... Kapitalertragsteuer  16... Aufsichtsratsabgabe  17... Altlastenbeitrag  18... Normverbrauchsabgabe  20... Gewerbesteuer  22... Erstattungsbeitraege / Kinderzuschlag  23... Erstattungsbeitraege / Kapitalertragssteuer  26... Sicherheitsbeitrag  27... Elektrizitaetsabgabe  28... Erdgasabgabe  29... Energieabgabenvergütung  30... Koerperschaftssteuer  31... Koerperschaftssteuer / beschraenkt steuerpf.  32... IF-Sondervorauszahlung  33... IF-Sondervorauszahlung  34... Abgabe von Zuwendungen  35... Heiratsbeihilfe  36... Rueckforderungsbetraege / Mietzinsbeihilfe  37... Rueckforderungsbetraege / Wertpapiersparen  38... Rückforderungsbetraege Bausparen  39... Nachversteuerungsbeträge / Sonderausgaben  40... Kammerumlage  41... Grundbetrag Landwirtschaftskammerumlage  42... Kleinkindbeihilfe  43... Kinderabsetzbetrag  44... Familienbeihilfe  45... Dienstgeberbeitrag  46... Familienbeihilfe  47... Zuschlag zum Dienstgeberbeitrag  48... Geburtenbeihilfe  49... Schulfahrtbeihilfe  50... Geburtenbeihilfe - Sonderzahlung  51... Straßenverkehrsbeitrag  52... Geburtenbeihilfe - Zuschlag  53... Geburtenbeihilfe - Zuschuß  54... Straßenbenützungsabgabe  55... Fahrtenbeihilfe fuer Lehrlinge  59... Karenzurlaubsgeld / Teilzeitbeihilfe  60... Tabaksteuer  61... Biersteuer  63... Mineraloelsteuer  64... Bundesmineralölsteuer  65... Branntweinaufschlag / Verschlußbrennereien  66... Branntweinaufschlag  68... Schaumweinsteuer  69... Abgabe auf bestimmte Staerkeerzeugnisse  71... Beitraege/ Abgabev. land- u. forstwirtschaftl. Betr.  72... Beitraege/ Abgabe v. land- u. forstwirtschaftl. Betr.  73... Beitraege/ Abgabe v. land- u. forstwirtschaftl. Betr.  74... Bodenwertabgabe  75... Beitrag/ Wohnhauswiederaufb.  76... Vermoegensteuer  78... Erbschaftssteueraequivalent  79... Tilgungsbeitraege - Kapitalstilgung  80... Resteingang einer weggefallenen Abgabe  81... Tilgungsbeitraege - Zinsen  82... Abgabenerhoehung  83... Verspätungszuschlag  84... Kostenersatz / Kosten der Ersatzvornahme  85... Zwangs- und Ordnungsstrafen  86... Geldstrafe (nach dem Finanzstrafgesetz)  87... verfallene Geldbetraege und Wertersaetze  88... Verfallserlöse  90... Kosten des Finanzstrafverfahrens  91... Mahngebuehr  92... Aussetzungszinsen  93... Pfaendungsgebuehr  94... Versteigerungsgebuehr  95... Barauslagenersatz  96... Gebuehren und Kostenersaetze  97... Stundungszinsen  98... Säumniszuschlag  100... Umsatzabgaben  101... Selbstbemessungsabgabenarten  112... Lohnabgaben  120... zu veranlagende Abgabenarten  400... Gebuehren  405... Gebuehren aus dem Gluecksspielmonopol  406... Wettgebuehrenzuschlaege  410... Erbschaftssteuer  411... Erbschaftssteuer  412... Erbschaftssteuer  413... Erbschaftssteuer  420... Schenkungssteuer  421... Schenkungssteuer  422... Schenkungssteuer  423... Schenkungssteuer  430... Grunderwerbssteuer  431... Grunderwerbssteuer  432... Grunderwerbssteuer  433... Grunderwerbssteuer",,"ABGABENART","SQLLOADER","DB2",2011-04-20
+"AE_AETAEHI","BETRAG","NUMBER(13)","AETAEHI.BETRAG","Betrag",,,"SQLLOADER","DB2",2011-04-20
+"AE_AETAEHI","VON_DAT","DATE","AETAEHI.DATEVON","Beginndatum der Gültigkeit des Datensatzes",,,"SQLLOADER","DB2",2011-04-20
+"AE_AETAEHI","BIS_DAT","DATE","AETAEHI.DATEBIS","Enddatum der Gültigkeit des Datensatzes",,,"SQLLOADER","DB2",2011-04-20
+,,,,"AETREVHI: historische Rückstände",,,,,
+"AE_REVHI","FINANZAMT_NR","NUMBER(3)","AETREVHI.FANR","Finanzamtsnummer",,,"SQLLOADER","DB2",2011-04-20
+"AE_REVHI","STEUER_NR","NUMBER(7)","AETREVHI.STNR","Steuernummer",,,"SQLLOADER","DB2",2011-04-20
+"AE_REVHI","LOESCH_DAT","DATE","AETREVHI.DATLOE","Datum der Löschung des Datensatzes",,,"SQLLOADER","DB2",2011-04-20
+"AE_REVHI","PLATZ_NR","NUMBER(6)","AETREVHI.NR","Nummer des Rückstandsfeldes (1-200, laut AD)",,,"SQLLOADER","DB2",2011-04-20
+"AE_REVHI","BUCHUNGSTAG_DAT","DATE","AETREVHI.DATBUCH","Buchungstag",,,"SQLLOADER","DB2",2011-04-20
+"AE_REVHI","GESCHAEFTSFALLCODE","NUMBER(6)","AETREVHI.GFC","Geschäftsfallcode (Code zur Feststellung, um welchen Geschäftsfall es sich handelt)",,"GESCHAEFTSFALL","SQLLOADER","DB2",2011-04-20
+"AE_REVHI","ZR_JAHR","NUMBER(11)","AETREVHI.DATZR","Zeitraum, auf welchen sich der Rückstand bezieht
+Transformationslogik Appl:
+Originalspalte DATZR wird aufgeteilt auf fünf Spalten: DATZR1 entspricht JAHR",,,"SQLLOADER","DB2",2011-04-20
+"AE_REVHI","ZR_MONAT_VON","NUMBER(11)","AETREVHI.DATZR","Zeitraum, auf welchen sich der Rückstand bezieht
+Transformationslogik Appl:
+Originalspalte DATZR wird aufgeteilt auf fünf Spalten: DATZR2 entspricht MONAT_VON",,,"SQLLOADER","DB2",2011-04-20
+"AE_REVHI","ZR_MONAT_BIS","NUMBER(11)","AETREVHI.DATZR","Zeitraum, auf welchen sich der Rückstand bezieht
+Transformationslogik Appl:
+Originalspalte DATZR wird aufgeteilt auf fünf Spalten: DATZR3 entspricht MONAT_BIS",,,"SQLLOADER","DB2",2011-04-20
+"AE_REVHI","ZR_TAG_VON_DAT","DATE","AETREVHI.DATZR","Zeitraum, auf welchen sich der Rückstand bezieht
+Transformationslogik Appl:
+Originalspalte DATZR wird aufgeteilt auf fünf Spalten: DATZR4 entspricht TAG_VON",,,"SQLLOADER","DB2",2011-04-20
+"AE_REVHI","FAELLIGKEITSTAG_DAT","DATE","AETREVHI.DATFAELL","Fälligkeitstag",,,"SQLLOADER","DB2",2011-04-20
+"AE_REVHI","ZAHLUNGSFRIST_DAT","DATE","AETREVHI.DATFRIST","Zahlungsfrist",,,"SQLLOADER","DB2",2011-04-20
+"AE_REVHI","FRISTART","NUMBER(1)","AETREVHI.ARTFRIST","Art des Frist (Bit 18)",,,"SQLLOADER","DB2",2011-04-20
+"AE_REVHI","NACHFRIST_DAT","DATE","AETREVHI.DATNACHF","Nachfrist",,,"SQLLOADER","DB2",2011-04-20
+"AE_REVHI","ZAHLUNGSTERMIN_ZE_DAT","DATE","AETREVHI.DATZE","Zahlungstermin (ZE) (Bit 10)",,,"SQLLOADER","DB2",2011-04-20
+"AE_REVHI","ZAHLUNGSTERMIN_RUECKSTAND_DAT","DATE","AETREVHI.DATZT","Zahlungstermin des Rückstandfeldes (wenn Bit 3 (BF-Ind AD) gesetzt ist ---> Nachfrist/AD  wenn nicht Bit 3 gesetzt ist ---> Zahlungsfrist/AD, wenn ungleich LOW-VALUE sonst immer: Fälligkeitstag/AD)",,,"SQLLOADER","DB2",2011-04-20
+"AE_REVHI","ABGABENART","NUMBER(6)","AETREVHI.AA","Abgabenart Werteliste:  0... Umsatzsteuer  1.. Umsatzsteuer (Fahrzeugeinzelbesteuerung)  2... Umsatzsteuer-Sondervorauszahlung  3... Abzugsteuer Werkvertrag  4... Investitionspraemie  5... Abgabe von alkoholischen Getränken  6... Weinsteuer  8... Sonderabgabe von Erdoel  9... Sonderabgabe von Banken  10... Zinsertragssteuer  11... Kapitalertragssteuer  12... Lohnsteuer  13... Einkommmensteuer  14... Einkommensteuer / beschraenkt steuerpfl.  15... Kapitalertragsteuer  16... Aufsichtsratsabgabe  17... Altlastenbeitrag  18... Normverbrauchsabgabe  20... Gewerbesteuer  22... Erstattungsbeitraege / Kinderzuschlag  23... Erstattungsbeitraege / Kapitalertragssteuer  26... Sicherheitsbeitrag  27... Elektrizitaetsabgabe  28... Erdgasabgabe  29... Energieabgabenvergütung  30... Koerperschaftssteuer  31... Koerperschaftssteuer / beschraenkt steuerpf.  32... IF-Sondervorauszahlung  33... IF-Sondervorauszahlung  34... Abgabe von Zuwendungen  35... Heiratsbeihilfe  36... Rueckforderungsbetraege / Mietzinsbeihilfe  37... Rueckforderungsbetraege / Wertpapiersparen  38... Rückforderungsbetraege Bausparen  39... Nachversteuerungsbeträge / Sonderausgaben  40... Kammerumlage  41... Grundbetrag Landwirtschaftskammerumlage  42... Kleinkindbeihilfe  43... Kinderabsetzbetrag  44... Familienbeihilfe  45... Dienstgeberbeitrag  46... Familienbeihilfe  47... Zuschlag zum Dienstgeberbeitrag  48... Geburtenbeihilfe  49... Schulfahrtbeihilfe  50... Geburtenbeihilfe - Sonderzahlung  51... Straßenverkehrsbeitrag  52... Geburtenbeihilfe - Zuschlag  53... Geburtenbeihilfe - Zuschuß  54... Straßenbenützungsabgabe  55... Fahrtenbeihilfe fuer Lehrlinge  59... Karenzurlaubsgeld / Teilzeitbeihilfe  60... Tabaksteuer  61... Biersteuer  63... Mineraloelsteuer  64... Bundesmineralölsteuer  65... Branntweinaufschlag / Verschlußbrennereien  66... Branntweinaufschlag  68... Schaumweinsteuer  69... Abgabe auf bestimmte Stärkeerzeugnisse  71... Beitraege/ Abgabe v. land- u. forstwirtschaftl. Betr.  72... Beitraege/ Abgabe v. land- u. forstwirtschaftl. Betr.  73... Beitraege/ Abgabe v. land- u. forstwirtschaftl. Betr.  74... Bodenwertabgabe  75... Beitrag/ Wohnhauswiederaufb.  76... Vermoegensteuer  78... Erbschaftssteueraequivalent  79... Tilgungsbeitraege - Kapitalstilgung  80... Resteingang einer weggefallenen Abgabe  81... Tilgungsbeitraege - Zinsen  82... Abgabenerhoehung  83... Verspätungszuschlag  84... Kostenersatz / Kosten der Ersatzvornahme  85... Zwangs- und Ordnungsstrafen  86... Geldstrafe (nach dem Finanzstrafgesetz)  87... verfallene Geldbetraege und Wertersaetze  88... Verfallserlöse  90... Kosten des Finanzstrafverfahrens  91... Mahngebuehr  92... Aussetzungszinsen  93... Pfaendungsgebuehr  94... Versteigerungsgebuehr  95... Barauslagenersatz  96... Gebuehren und Kostenersaetze  97... Stundungszinsen  98... Säumniszuschlag  100... Umsatzabgaben  101... Selbstbemessungsabgabenarten  112... Lohnabgaben  120... zu veranlagende Abgabenarten  400... Gebuehren  405... Gebuehren aus dem Gluecksspielmonopol  406... Wettgebuehrenzuschlaege  410... Erbschaftssteuer  411... Erbschaftssteuer  412... Erbschaftssteuer  413... Erbschaftssteuer  420... Schenkungssteuer  421... Schenkungssteuer  422... Schenkungssteuer  423... Schenkungssteuer  430... Grunderwerbssteuer  431... Grunderwerbssteuer  432... Grunderwerbssteuer  433... Grunderwerbssteuer",,"ABGABENART","SQLLOADER","DB2",2011-04-20
+"AE_REVHI","BETRAG","NUMBER(13)","AETREVHI.BETRAG","Betrag",,,"SQLLOADER","DB2",2011-04-20
+"AE_REVHI","SZ_BERECHNET","NUMBER(1)","AETREVHI.INDSZBER","SZ berechnet (Bit 1)",,,"SQLLOADER","DB2",2011-04-20
+"AE_REVHI","ZE_ANSUCHEN","NUMBER(1)","AETREVHI.INDZEA","ZE-Ansuchen (Bit 15)",,,"SQLLOADER","DB2",2011-04-20
+"AE_REVHI","ZE_ANSUCHEN_ZT_VERSPAETET","NUMBER(1)","AETREVHI.INDZEZT","ZE-Ansuchen hinsichtlich Zahlungstermin verspätet (Bit 5)",,,"SQLLOADER","DB2",2011-04-20
+"AE_REVHI","ZE_ANSUCHEN_SZ_VERSPAETET","NUMBER(1)","AETREVHI.INDZESZ","ZE-Ansuchen hinsichtlich SZ verspätet (Bit 19)",,,"SQLLOADER","DB2",2011-04-20
+"AE_REVHI","AE_ANTRAG","NUMBER(1)","AETREVHI.INDAEA","AE-Antrag (Bit 25)",,,"SQLLOADER","DB2",2011-04-20
+"AE_REVHI","AE_ANTRAG_ZT_VERSPAETET","NUMBER(1)","AETREVHI.INDAEZT","AE-Antrag hinsichtlich Zahlungstermin verspätet (Bit 26)",,,"SQLLOADER","DB2",2011-04-20
+"AE_REVHI","AE_ANTRAG_SZ_VERSPAETET","NUMBER(1)","AETREVHI.INDAESZ","AE-Antrag hinsichtlich SZ verspätet (Bit 27)",,,"SQLLOADER","DB2",2011-04-20
+"AE_REVHI","ZE_ANSUCHEN_VERSPAETET_RZ_AE","NUMBER(1)","AETREVHI.INDZEAE","ZE-Ansuchen urspr. verspätet bei rechtzeitigem AE-Antrag (Bit 28)",,,"SQLLOADER","DB2",2011-04-20
+"AE_REVHI","MAHNUNG_ERFOLGLOS","NUMBER(1)","AETREVHI.INDMA","MA-Verfahren erfolglos (Bit 6)",,,"SQLLOADER","DB2",2011-04-20
+"AE_REVHI","MAHNUNG_EHD","NUMBER(1)","AETREVHI.INDMAEHD","MA beim letzten EHD ausgefertigt",,,"SQLLOADER","DB2",2011-04-20
+"AE_REVHI","RUECKSTANDSFELD_RA_ENTHALTEN","NUMBER(1)","AETREVHI.INDRA","Rückstandsfeld im RA enthalten (Bit 9)",,,"SQLLOADER","DB2",2011-04-20
+"AE_REVHI","RUECKSTANDSFELD_GETEILT","NUMBER(1)","AETREVHI.INDTEIL","Rückstandsfeld geteilt (Bit 14)",,,"SQLLOADER","DB2",2011-04-20
+"AE_REVHI","ENTRICHTUNGSART","NUMBER(1)","AETREVHI.INDENTR","Art der Entrichtung (Bit 16 è 1; Bit 17 è 2)",,,"SQLLOADER","DB2",2011-04-20
+"AE_REVHI","RUECKSTANDSFELD_FIKTIV","NUMBER(1)","AETREVHI.INDFIKT","Rückstandsfeld ist technisch bedingt fiktiv (Bit 20) Achtung: Es handelt sich NICHT um einen fiktiven Rückstand (Dieser ist Abgabenart 19)",,,"SQLLOADER","DB2",2011-04-20
+"AE_REVHI","NUMERATOR_AD","NUMBER(6)","AETREVHI.NUM","Numerator/AD (Rückstandsnummer)",,,"SQLLOADER","DB2",2011-04-20
+"AE_REVHI","VON_DAT","DATE","AETREVHI.DATEVON","Beginndatum der Gültigkeit des Datensatzes",,,"SQLLOADER","DB2",2011-04-20
+"AE_REVHI","BIS_DAT","DATE","AETREVHI.DATEBIS","Enddatum der Gültigkeit des Datensatzes",,,"SQLLOADER","DB2",2011-04-20
+"AE_REVHI","ZEITRAUM","NUMBER","AETREVHI.DATZR","Original  DATZR (key)",,,"SQLLOADER","DB2",2011-04-20
+,,,,"AETEB: Einbringung (durch VID mit Vorgängen Verbunden)",,,,,
+"AE_AETEB","VORGANG_ID","NUMBER(15)","AETEB.VID","Identifikationsnummer des betreffenden EB-Aktes: stimmt mit der Identifikationsnummer des den EB-Akt erzeugenden Vorganges überein.",,,"SQLLOADER","DB2",2013-11-10
+"AE_AETEB","EB_TYP","VARCHAR2(1)","AETEB.TYP","Typ Werteliste: E... Einbringungsakt Z... Amtshilfe / Zoll R... Rechtshilfe-Ersuchen H... Haftungsbeteiligter",,,"SQLLOADER","DB2",2013-11-10
+"AE_AETEB","EB_AKTART","VARCHAR2(4)","AETEB.ART","RA-Art Werteliste: EBA... händischer EB-Akt (Typ = 'E')RA... Rückstandsausweis (Typ = 'E') RAH... händischer Rückstandsausweis (Typ = 'E')RHF... Rechtshilfeersuchen - Eingang (Typ = 'R')AHZ... AHE / Zoll-Eingang (Typ = 'Z')",,,"SQLLOADER","DB2",2013-11-10
+"AE_AETEB","FINANZAMT_NR","NUMBER(3)","AETEB.FANR","Finanzamtsnummer zur Identifikation des Subjektes zusammen mit STNR und DATLOE Die Finanzamtsnummer wird als Fremdschlüsselwert zusammen mit STNR und DATLOE verwendet, um herauszufinden zu können für welche Subjekte ein EB-Akt angelegt ist.",,,"SQLLOADER","DB2",2013-11-10
+"AE_AETEB","STEUER_NR","NUMBER(7)","AETEB.STNR","Steuernummer",,,"SQLLOADER","DB2",2013-11-10
+"AE_AETEB","LOESCH_DAT","DATE","AETEB.DATLOE","Datum der Löschung des letzten Datensatzes",,,"SQLLOADER","DB2",2013-11-10
+"AE_AETEB","EROEFFNUNG_DAT","DATE","AETEB.DATEBEG","Datum der Eröffnung des Aktes",,,"SQLLOADER","DB2",2013-11-10
+"AE_AETEB","EB_REFERAT","VARCHAR2(2)","AETEB.REFNREB","Referatsnummer der Einbringungsstelle",,,"SQLLOADER","DB2",2013-11-10
+"AE_AETEB","RAYON","VARCHAR2(2)","AETEB.RAYON","Unterteilung zum Referat ohne bestimmten Wertevorrat! Wenn Suborganisationen in der Organisationen vorhanden, dann ist dies sinnvoll, sonst nicht.",,,"SQLLOADER","DB2",2013-11-10
+"AE_AETEB","BEARBEITUNGSSTATUS","VARCHAR2(1)","AETEB.STAT","Status der Bearbeitung Wenn Suborganisationen in der Organisationen vorhanden, dann ist dies sinnvoll, sonst nicht.",,"BEARBEITUNGSSTATUS","SQLLOADER","DB2",2013-11-10
+"AE_AETEB","AKTUELL","VARCHAR2(1)","AETEB.AKTUELL","aktueller Datensatz? (J/N)",,,"SQLLOADER","DB2",2013-11-10
+"AE_AETEB","VON_TS","TIMESTAMP","AETEB.TS","Zeitpunkt zur Historisierung des EB-Aktes",,,"SQLLOADER","DB2",2013-11-10
+,,,,"AETEBM: Maßnahmen im Rahmen der Einbringung",,,,,
+"AE_AETEBM","VORGANG_ID","NUMBER(15)","AETEBM.VID","Vorgangsidentifikationsnummer",,,"SQLLOADER","DB2",2011-12-20
+"AE_AETEBM","MASSNAHMEN_TYP","VARCHAR2(1)","AETEBM.TYP","Typ der Maßnahme Werteliste:  ' '... normale Maßnahme  G... Sicherstellung (nur bei Ausloesermaßnahme)  H... Haftung (nur bei Ausloesermaßnahme)  I... Insolvenz (nur bei Ausloesermaßnahme)  A... Amtshilfe (nur bei Ausloesermaßnahme)  R... RA (Geburt)  Z... RA (Zuwachs)  S... Sonstige ",,,"SQLLOADER","DB2",2011-12-20
+"AE_AETEBM","SUB_NR_TYP","NUMBER(6)","AETEBM.SUBNR","Subnummer pro Tpy Werteliste: 0… Einzelmassnahme",,,"SQLLOADER","DB2",2011-12-20
+"AE_AETEBM","MASSNAHME_VORGANG_ID","NUMBER(15)","AETEBM.VIDM","VID der Massnahme",,,"SQLLOADER","DB2",2011-12-20
+"AE_AETEBM","MASSNAHMENART","VARCHAR2(4)","AETEBM.ART","Art der Massnahme Werteliste:  UEBA... Uebernahmsantrag  ABW... Abweisung  AEB... Aussetzung der Einbringung  AEN... AHE - Ende  AEW... Wiederaufnahme der Einbringung  AGA... außergerichtlicher Ausgleich  AGN... angenommen  AHUE... AHE / Haftung - Ueberm.  AHE... Amtshilfeersuchen  AHH... AHE / Haftung - Eingang  AHZ... AHE / Zoll  ANN... Annahme  AV... Aktenvermerk  AZV... Antrag Zwangsversteigerung  AZW... Antrag Zwangsverwaltung  BÜR... Buergschaft  BD... bedingt  BE... Beendigung  BEW... Bewilligung  BKG... Bankgarantie  BS... besucht  BVE... Berufung  BZV... Beitritt Zwangsversteigerung  BZW... Beitritt Zwangsverwaltung  DE... Drittschuldnererklaerung  DGF... durchgefuehrt  EBE... Ende des Verfahrens  EG... eingeloest  EIN... eingelangt  EL... erfolglos  END... beendet  ER... erfolgreich  ERH... Erhebung  EST... eingestellt  FER... Forderungserhebung  FHV... Freihandverkauf  FPF... Forderungspfaendung  HAA... Herausgabeanspruch  HB... Haftungsbescheid  IAF... Anfechtung  IFA... Forderungsanmeldung  IMG... Mahnung  INS... Insolvenzverfahren  IQZ... Quotenzahlung  ITS... Tagsatzung  IVA... Aufhebung  IVE... Eroeffnung  KAN... Konkursantrag  KLG... Klage  LO... Loeschung  LOW... Widerruf der Loeschung  LPF... Lohnpfaendung  MAA... Meldeamtsanfrage  NA... Nachsicht  NAG... nicht angenommen  NAT... nicht angetroffen  NAW... Widerruf der Nachsicht  NBS... nicht besucht  NEG... nicht eingeloest  PRB... Pfandrechtsbegruendung  PRV... Pfandrechtsvormerkung  QE... Quote erfuellt  QNE... Quote nicht erfuellt  RA... Rückstandsausweis  RAH... haendischer RA  RAR... RA / TV (Rate)  RAS... RA / TV (sonstige Schuldigkeit)  RAT... RA / TV - Verstaendigung  RF... Rechtfertigung  RHE... Rechtshilfeersuchen - Ue<bermittlung  RHF... Rechtshilfeersuchen - Eingang  RZ... Rueckzahlung  RZE... Rueckabtretung  SCA... Scheckannahme  SIA... Sicherstellungsauftrag  SMI... Sonstige Maßnahme Innendienst  SPF... Sachpfaendung  STG... Stattgabe  STO... storniert  TE... Termin eingehalten",,"MASSNAHMENART","SQLLOADER","DB2",2011-12-20
+"AE_AETEBM","ABTR","VARCHAR2(1)","AETEBM.ABTR","ABTR",,,"SQLLOADER","DB2",2011-12-20
+"AE_AETEBM","EMS_DAT","DATE","AETEBM.DATEMS","DATEMS",,,"SQLLOADER","DB2",2011-12-20
+"AE_AETEBM","TERMINSETZUNG_DAT","DATE","AETEBM.DATETERM","Datum des gesetzten Termines",,,"SQLLOADER","DB2",2011-12-20
+"AE_AETEBM","BETRAG","NUMBER(13)","AETEBM.BETR","Betrag",,,"SQLLOADER","DB2",2011-12-20
+"AE_AETEBM","SACHBEARBEITER_VERSNR","VARCHAR2(10)","AETEBM.VNRV","VNRV",,,"SQLLOADER","DB2",2011-12-20
+"AE_AETEBM","ZIEL_FINANZAMT_NR","NUMBER(3)","AETEBM.FANRZ","FANRZ Ziel bei Amtshilfe",,,"SQLLOADER","DB2",2011-12-20
+"AE_AETEBM","ERLEDIGUNGSART","VARCHAR2(4)","AETEBM.ARTE","Art der Erledigung die erledigende (Nachfolge-) Massnahme Werteliste:  UEBA... UEbernahmsantrag  ABW... Abweisung  AEB... Aussetzung der Einbringung  AEN... AHE - Ende  AEW... Wiederaufnahme der Einbringung  AGA... außergerichtlicher Ausgleich  AGN... angenommen  AHUE... AHE / Haftung - UEberm.  AHE... Amtshilfeersuchen  AHH... AHE / Haftung - Eingang  AHZ... AHE / Zoll  ANN... Annahme  AV... Aktenvermerk  AZV... Antrag Zwangsversteigerung  AZW... Antrag Zwangsverwaltung  BUER... BUergschaft  BD... bedingt  BE... Beendigung  BEW... Bewilligung  BKG... Bankgarantie  BS... besucht  BVE... Berufung  BZV... Beitritt Zwangsversteigerung  BZW... Beitritt Zwangsverwaltung  DE... Drittschuldnererklärung  DGF... durchgefUehrt  EBE... Ende des Verfahrens  EG... eingeloest  EIN... eingelangt  EL... erfolglos  END... beendet  ER... erfolgreich  ERH... Erhebung  EST... eingestellt  FER... Forderungserhebung  FHV... Freihandverkauf  FPF... Forderungspfändung  HAA... Herausgabeanspruch  HB... Haftungsbescheid  IAF... Anfechtung  IFA... Forderungsanmeldung  IMG... Mahnung  INS... Insolvenzverfahren  IQZ... Quotenzahlung  ITS... Tagsatzung  IVA... Aufhebung  IVE... Eroeffnung  KAN... Konkursantrag  KLG... Klage  LO... Loeschung  LOW... Widerruf der Loeschung  LPF... Lohnpfändung  MAA... Meldeamtsanfrage  NA... Nachsicht  NAG... nicht angenommen  NAT... nicht angetroffen  NAW... Widerruf der Nachsicht",,"ERLEDIGUNGSART","SQLLOADER","DB2",2011-12-20
+"AE_AETEBM","ERLEDIGUNG_DAT","DATE","AETEBM.DATEERL","Datum der Erledigung",,,"SQLLOADER","DB2",2011-12-20
+"AE_AETEBM","ERLEDIGUNGSBETRAG","NUMBER(13)","AETEBM.BETRE","Betrag zur Erledigung, der mit der zu erledigenden (Nachfolge-) Massnahme verbunden ist",,,"SQLLOADER","DB2",2011-12-20
+"AE_AETEBM","NAME",,"AETEBM.NAME","Name des von der Maßnahme Betroffenen",,,"SQLLOADER","DB2",2011-12-20
+"AE_AETEBM","PLZ",,"AETEBM.PLZL","Postleitzahl mit Ländercode des von der Maßnahme Betroffenen",,,"SQLLOADER","DB2",2011-12-20
+"AE_AETEBM","ADRESSE",,"AETEBM.ADR","Adresse des von der Maßnahme Betroffenen",,,"SQLLOADER","DB2",2011-12-20
+"AE_AETEBM","MASSNAHME_TS","TIMESTAMP","AETEBM.TS","Zeitpunkt der Maßnahme",,,"SQLLOADER","DB2",2011-12-20
+"AE_AETEBM","URSPRUNG_FINANZAMT_NR",,"AETEBM.FANRU","Nummer des ursprünglichen Finanzamtes",,,"SQLLOADER","DB2",2011-12-20
+"AE_AETEBM","FINANZAMT_NR_AKTUELL",,"AETEBM.FANRAKT","Aktuelles aktenführendes Finanzamt",,,"SQLLOADER","DB2",2011-12-20
+"AE_AETEBM","ZWISCHENERLED_ART",,"AETEBM.ARTEZW","Zwischen-Erledigungsart",,,"SQLLOADER","DB2",2011-12-20
+"AE_AETEBM","ZWISCHENERLED_DAT","DATE","AETEBM.DATEERLZW","Datum der Zwischenerledigung",,,"SQLLOADER","DB2",2011-12-20
+"AE_AETEBM","ZWISCHENERLED_BETRAG",,"AETEBM.BETRZW","Betrag zur Zwischenerledigung",,,"SQLLOADER","DB2",2011-12-20
+,,,,"AETAX / AETA: (externer) Antrag",,,,,
+"AE_ANTRAG","VORGANG_ID","NUMBER(1)","AETA.VID,  AETAX.VID","Vorgänge – Identifikationsnummer",,,"SQLLOADER","DB2",2010-10-31
+"AE_ANTRAG","ANTRAGSART","VARCHAR2(4)","AETA.ART, AETAX.ART","Werteliste in SVN!",,,"SQLLOADER","DB2",2010-10-31
+"AE_ANTRAG","TYP","VARCHAR2(1)","AETA.TYP, AETAX.TYP","Typ Werteliste:  blank ... (FA),  ’X'... ( Extern, FA-Online),  'D'... (AETDL),  'P'... (Paket (Datenstrom))",,,"SQLLOADER","DB2",2010-10-31
+"AE_ANTRAG","ANTRAG_DAT","DATE","AETA.DATANTR, AETAX.DATANTR","Antragsdatum",,,"SQLLOADER","DB2",2010-10-31
+"AE_ANTRAG","ANMERKUNG_DAT","DATE","AETA.DATANM, AETAX.DATANM","Datum der Anmerkung",,,"SQLLOADER","DB2",2010-10-31
+"AE_ANTRAG","ZR_UVA_JAHR","NUMBER(11)","AETA.DATZR, AETAX.DATZR","Datum des Zeitraumes UVA
+Transformationslogik Appl:
+Originalspalte DATZR wird aufgeteilt auf fünf Spalten: DATZR1 entspricht JAHR",,,"SQLLOADER","DB2",2010-10-31
+"AE_ANTRAG","ZR_UVA_MONAT_VON","NUMBER(11)","AETA.DATZR, AETAX.DATZR","Datum des Zeitraumes UVA
+Transformationslogik Appl:
+Originalspalte DATZR wird aufgeteilt auf fünf Spalten: DATZR2 entspricht MONAT_VON",,,"SQLLOADER","DB2",2010-10-31
+"AE_ANTRAG","ZR_UVA_MONAT_BIS","NUMBER(11)","AETA.DATZR, AETAX.DATZR","Datum des Zeitraumes UVA
+Transformationslogik Appl:
+Originalspalte DATZR wird aufgeteilt auf fünf Spalten: DATZR3 entspricht MONAT_BIS",,,"SQLLOADER","DB2",2010-10-31
+"AE_ANTRAG","ZR_UVA_TAG_VON_DAT","DATE","AETA.DATZR, AETAX.DATZR","Datum des Zeitraumes UVA
+Transformationslogik Appl:
+Originalspalte DATZR wird aufgeteilt auf fünf Spalten: DATZR3 entspricht TAG_VON",,,"SQLLOADER","DB2",2010-10-31
+"AE_ANTRAG","FINANZAMT_NR","NUMBER(3)","AETA.FANR, AETAX.FANR","Finanzamtnummer",,,"SQLLOADER","DB2",2010-10-31
+"AE_ANTRAG","STEUER_NR","NUMBER(7)","AETA.STNR, AETAX.STNR","Steuernummer",,,"SQLLOADER","DB2",2010-10-31
+"AE_ANTRAG","LOESCH_DAT","DATE","AETA.DATLOE, AETAX.DATLOE","Datum der Löschung des Datensatzes zur Steuernummer",,,"SQLLOADER","DB2",2010-10-31
+"AE_ANTRAG","BEANTRAGTER_BETRAG","NUMBER(13)","AETA.BETRANTR, AETAX.BETRANTR","beantragter Betrag",,,"SQLLOADER","DB2",2010-10-31
+"AE_ANTRAG","BUCHUNGSTAG_DAT","DATE","AETA.DATERL, AETAX.DATERL","Buchungstag der Erledigung (dzt. aus TS); wird im Batch (AERZGD) gesetzt (bzw. bei Storno oder Zurücknahme gleich)",,,"SQLLOADER","DB2",2010-10-31
+"AE_ANTRAG","WAEHRUNGSSCHLUESSEL","VARCHAR2(3)","AETA.WCD, AETAX.WCD","Währungsschlüssel: Schilling (ATS) oder EURO (dzt. immer ATS)",,,"SQLLOADER","DB2",2010-10-31
+"AE_ANTRAG","RUECKZAHLUNG_UEB_UNGEKUERZT","VARCHAR2(1)","AETA.UNGEKUERZT, AETAX.UNGEKUERZT","ungekürzte Rückzahlung Werteliste:  'N': Fehler im Batch, wenn Guthaben nicht ausreicht  'J': Aufbau im Rückstand AA19, wenn Guthaben nicht ausreicht",,,"SQLLOADER","DB2",2010-10-31
+"AE_ANTRAG","BEGRUENDUNGSCODE","VARCHAR2(2)","AETA.BC,  AETAX.BC","Begründungscode (Angabe für Standartbegründungstext im Bescheid; bedeutet (Teil-) abweisung  AM... amtswegig (bei Art = ZE, ZEG))",,,"SQLLOADER","DB2",2010-10-31
+"AE_ANTRAG","ANTRAGSSTATUS","VARCHAR2(1)","AETA.STAT, AETAX.STAT","mögliche Stati des Antrages (in Approbation, in Bearbeitung, Zahlungsauftrag gedruckt, noch nicht bearbeitet, …) Werteliste: blank = offen  Z... Zahlungsauftrag erstellt  G... zur Genehmigung gesendet (siehe AETRZE/ERLART; bis zur Genehmigung '99')  F... Fehler aus Batch (AERZGD)  W... genehmigt (wartet auf Verarbeitung; Auslöser für BATCH - Verarbeitung)  V... verarbeitet (inkl. Storno, Zurücknahme)  N... Zurücknahme  S... Storno  T... Storno nach Fehler aus Batch",,,"SQLLOADER","DB2",2010-10-31
+"AE_ANTRAG","MAENGELBEHEBUNG","VARCHAR2(1)","AETA.MB,  AETAX.MB","Mängelbehebung Werteliste:  E... Einbringung  R... Referat  S... Strafsachenstelle  B... Bewertung",,,"SQLLOADER","DB2",2010-10-31
+"AE_ANTRAG","VON_TS","TIMESTAMP","AETA.TS,  AETAX.TS","Zeitpunkt",,,"SQLLOADER","DB2",2010-10-31
+"AE_ANTRAG","ZAHLUNGSAUFTRAG","VARCHAR2(66)","AETA.TEXTAAZR, AETAX.TEXTAAZR","aus Map Zahlungsauftrag ’Guthaben entstanden aus’ 4 mal AA + Zeitraum als String gespeichert; Prüfung auf gültige AA (mit AETAA) (z. B. ’Ubb10121998GW 1989bbbb’)",,,"SQLLOADER","DB2",2010-10-31
+"AE_ANTRAG","FREIER_TEXT_1","VARCHAR2(250)","AETA.BCTXT1, AETAX.BCTXT1","freier Text 1 zu Begründungscode",,,"SQLLOADER","DB2",2010-10-31
+"AE_ANTRAG","FREIER_TEXT_2","VARCHAR2(250)","AETA.BCTXT2, AETAX.BCTXT2","freier Text 2 zu Begründungscode",,,"SQLLOADER","DB2",2010-10-31
+"AE_ANTRAG","FREIER_TEXT_3","VARCHAR2(250)","AETA.BCTXT3, AETAX.BCTXT3","freier Text 3 zu Begründungscode",,,"SQLLOADER","DB2",2010-10-31
+"AE_ANTRAG","FREIER_TEXT","VARCHAR2(250)","AETA.FTXT, AETAX.FTXT","fixer Text (Verwendungszweck für Scheck) Werteliste:  RES... Reservierung (98 oder 99)  SB... SB-Antrag  RZ... RZ-Antrag  UF... Unterschrift fehlt  RE... Rechnungen beigelegt  MA... Maßnahme (BP = Betriebsprüfung, VH = Vorhalt)  UE... Übertragung  UG... U-Gutschrift geprüft",,,"SQLLOADER","DB2",2010-10-31
+"AE_ANTRAG","VORGANG_GENEHMIGUNGSPFLICHTIG","VARCHAR2(1)","AETA.GEN, AETAX.GEN","Ist der Vorgang zu genehmigen? Werteliste: J / Blank (bleibt bestehen, auch wenn sich der aktuelle Status-Wert ändert!)",,,"SQLLOADER","DB2",2010-10-31
+"AE_ANTRAG","URSPRUNG_FINANZAMT_NR","NUMBER(3)","AETA.FANRURSPR, AETAX.FANRURSPR","ursprüngliche Finanzamtnummer",,,"SQLLOADER","DB2",2010-10-31
+"AE_ANTRAG","URSPRUNG_STEUER_NR","NUMBER(7)","AETA.STNRURSPR, AETAX.STNRURSPR","ursprüngliche Steuernummer",,,"SQLLOADER","DB2",2010-10-31
+"AE_ANTRAG","SUBART","VARCHAR2(4)","AETA.SUBART, AETAX.SUBART","???????????",,,"SQLLOADER","DB2",2010-10-31
+"AE_ANTRAG","INDIKATOR_TYP","VARCHAR2(1)","DUMMY.DUMMY_FELD_C1",,,,"SQLLOADER","DB2",2010-10-31
+"AE_ANTRAG","ZEITRAUM","NUMBER","AETA.DATZR, AETAX.DATZR","Original DATZR",,,"SQLLOADER","DB2",2010-10-31
+,,,,"AETBEL / AETBELH / AETBELX : normale / historische/ externe Belege",,,,,
+"AE_BELEG","VORGANG_ID","NUMBER(15)","AETBEL.VID, AETBELX.VID","Vorgänge – Identifikationsnummer",,,"SQLLOADER","DB2",2011-08-10
+"AE_BELEG","SUB_NR","NUMBER(6)","AETBEL.SUBNR, AETBELX.SUBNR","Subnummer ist bei geteilten Belegen ungleich 0, sonst gleich 0",,,"SQLLOADER","DB2",2011-08-10
+"AE_BELEG","ART","VARCHAR2(4)","AETBEL.ART, AETBELX.ART","Werteliste in SVN!",,,"SQLLOADER","DB2",2011-08-10
+"AE_BELEG","GESCHAEFTSFALLCODE","NUMBER(6)","AETBEL.GFC, AETBELX.GFC","Geschäftsfallcode Werteliste:  0 (INDGFC=0)... Zahlung  0 (INDGFC=1)... Stornierung einer Zahlung  0 (INDGFC=2)... Drittschuldnerzahlung  1 (INDGFC=0)... Zahlung mit Verrechnungsweisung  1 (INDGFC=1)... Buchung  1 (INDGFC=2)... Stornobuchung  1 (INDGFC=3)... Stornierung einer Zahlung  6 (INDGFC=0)... Zahlung  6 (INDGFC=1)... Buchung  6 (INDGFC=2)... Stornobuchung  10 (INDGFC=0)... UEbertragung  11 (INDGFC=0)... UEbertragung  16 (INDGFC=0)... UEbertragung  20 (INDGFC=0)... Rueckzahlung  31 (INDGFC=0)... Festsetzung  31 (INDGFC=1)... Jahresbuchung  34 (INDGFC=0)... Festsetzung  36 (INDGFC=0)... Festsetzung  38 (INDGFC=0)... Festsetzung  41 (INDGFC=0)... Festsetzung  41 (INDGFC=1)... Jahresbuchung  41 (INDGFC=2)... Sammelbuchung Festsetzungen  44 (INDGFC=0)... Festsetzung  46 (INDGFC=0)... Festsetzung  48 (INDGFC=0)... Festsetzung  50 (INDGFC=0)... Berichtigte Festsetzung  51 (INDGFC=0)... Abgeaenderte Festsetzung  52 (INDGFC=0)... Bescheidaufhebung  53 (INDGFC=0)... Wiederaufnahme des Verfahrens  54 (INDGFC=0)... Berufungsvorentscheidung  58 (INDGFC=0)... Berufungsentscheidung  58 (INDGFC=1)... Rechtsmittelentscheidung  59 (INDGFC=0)... Bescheidabaenderung  60 (INDGFC=0)... Vierteljahresbuchung  61 (INDGFC=0)... Anrechnung  62 (INDGFC=0)... Jahresbuchung  65 (INDGFC=0)... UEbertragung von Gebarungsdaten  78 (INDGFC=0)... Anzeige  78 (INDGFC=1)... Voranmeldung  78 (INDGFC=2)... Anmeldung  78 (INDGFC=3)... Buchung  78 (INDGFC=4)... Berichtigung  79 (INDGFC=0)... Erklaerung  83 (INDGFC=0)... Aussetzung der Einhebung  84 (INDGFC=0)... Ablauf einer Aussetzung der Einhebung  84 (INDGFC=1)... Widerruf einer Aussetzung der Einhebung  84 (INDGFC=2)... AEnderung einer Aussetzung der Einhebung  84 (INDGFC=3)... AEnderung einer Aussetzung einer Einhebung  84 (INDGFC=4)... Stornierung einer Aussetzung einer Einhebung  86 (INDGFC=0)... Buchung  88 (INDGFC=0)... Buchung  91 (INDGFC=0)... Loeschung  91 (INDGFC=1)... Stornierung einer Loeschung  91 (INDGFC=2)... Abschreibung  91 (INDGFC=3)... Stornierung einer Abschreibung  92 (INDGFC=0)... Nachsicht  92 (INDGFC=1)... Stornierung einer Nachsicht  92 (INDGFC=5)... Centausgleich  93 (INDGFC=0)... Aussetzung der Einbringung  93 (INDGFC=1)... Stornierung einer Aussetzung der Einbringung  94 (INDGFC=0)... Widerruf einer Loeschung  94 (INDGFC=1)... Stornierung eines Widerrufes einer Loeschung  95 (INDGFC=0)... Widerruf einer Nachsicht  95 (INDGFC=1)... Stornierung eines Widerrufes einer Nachsicht  96 (INDGFC=0)... Wiederaufnahme einer Einbringung  96 (INDGFC=1)... Stornierung einer Wiederaufnahme einer Einbringung  99 (INDGFC=0)... Stornierung",,"GESCHAEFTSFALL","SQLLOADER","DB2",2011-08-10
+"AE_BELEG","INDIKATION_GESCHAEFTSFALLCODE","NUMBER(1)","AETBEL.INDGFC, AETBELX.INDGFC","Idndikation zum Geschäftsfallcode Werteliste:  :  0,1, 2, 3,4 ,5  Dieses Attribut gemeinsam mit dem GFC bildet eine eindeutige  Benennung des Geschaeftsfalls.  Beispiel:  31 (INDGFC=1)... Jahresbuchung  34 (INDGFC=0)... Festsetzung  44 (INDGFC=0)... Festsetzung  86 (INDGFC=0)... Buchung  95 (INDGFC=0)... Widerruf einer Nachsicht",,,"SQLLOADER","DB2",2011-08-10
+"AE_BELEG","KONTOAUSZUG_PSK_VORGANG_ID","NUMBER(15)","AETBEL.VIDK, AETBELX.VIDK","Vorgänge – Identifikationsnummer des Kontoauszuges",,,"SQLLOADER","DB2",2011-08-10
+"AE_BELEG","BUCHUNG_DAT","DATE","AETBEL.DATBUCH, AETBELX.DATBUCH","Buchungstag",,,"SQLLOADER","DB2",2011-08-10
+"AE_BELEG","FORMATKENNZEICHEN_1","VARCHAR2(1)","AETBEL.FKZ1, AETBELX.FKZ1","vorläufige Festsetzung (34/44)",,,"SQLLOADER","DB2",2011-08-10
+"AE_BELEG","FORMATKENNZEICHEN_2","VARCHAR2(1)","AETBEL.FKZ2, AETBELX.FKZ2","Formatkennzeichen Fälligkeitstag Sonder (38/48)",,,"SQLLOADER","DB2",2011-08-10
+"AE_BELEG","VERSPAETUNGSZUSCHLAG","NUMBER(3)","AETBEL.VSP, AETBELX.VSP","Verspätungszuschlag",,,"SQLLOADER","DB2",2011-08-10
+"AE_BELEG","POSTLAUF","VARCHAR2(1)","AETBEL.POSTL, AETBELX.POSTL","Postlauf Werteliste: 0, 3",,,"SQLLOADER","DB2",2011-08-10
+"AE_BELEG","WAEHRUNGSCODE","VARCHAR2(3)","AETBEL.WCD, AETBELX.WCD","Währungscode für Zahlungsbetrag",,"WAEHRUNG","SQLLOADER","DB2",2011-08-10
+"AE_BELEG","PSK_ERFASSUNG_NR","NUMBER(11)","AETBEL.ERFNR, AETBELX.ERFNR","Erfassungsnummer lt. PSK (eindeutig)",,,"SQLLOADER","DB2",2011-08-10
+"AE_BELEG","PSK_LFNR","NUMBER(6)","AETBEL.NR, AETBELX.NR","laufende Nummer des Beleges (kommt von der PSK)",,,"SQLLOADER","DB2",2011-08-10
+"AE_BELEG","BETRAG","NUMBER(13)","AETBEL.BETRAGV, AETBELX.BETRAGV","zu verrechnender Betrag des Beleges (in ATS, ab 1.1.2002 in EURO) bzw.GW-Mischschlüssel (Eintrag KU 3) er wird das BetragV feld als Betrag geliefert",,,"SQLLOADER","DB2",2011-08-10
+"AE_BELEG","UVA_ENTRICHTUNG_DAT","DATE","AETBEL.DATENTR, AETBELX.DATENTR","Entrichtungstag bei UVA: Datum der UVA",,,"SQLLOADER","DB2",2011-08-10
+"AE_BELEG","ENTRICHTUNGSART","NUMBER(6)","AETBEL.EF, AETBELX.EF","Entrichtungsform bzw. Art der Entrichtung",,,"SQLLOADER","DB2",2011-08-10
+"AE_BELEG","BELEGSTATUS1","VARCHAR2(1)","AETBEL.STAT, AETBELX.STAT","Status des Beleges Werteliste:  ' '... offen  W... bearbeitet (wartet auf Batch)  V... vom Batch verarbeitet  F... Fehler  G... zur Genehmigung",,,"SQLLOADER","DB2",2011-08-10
+"AE_BELEG","BELEGSTATUS2","NUMBER(6)","AETBEL.STAT2, AETBELX.STAT2","Substatus (Zsatzstatus) Weretliste:  0... Normalfall  wird bei Übermittlung gesetzt (M1-Belege) und muß vor Verarbeitung bereinigt werden für:  1... Prüfziffer falsch  2... kein aufrechtes Konto vorhanden  3... Insolvenz ist angemerkt  4... Belegzeile fehlt (bei Sammelkonto 1 (oder 2)) (Weisung muß noch angegeben werden)  5... Konto wartet auf Abtretung  6... Überleitungsfall  7... FA entspricht nicht der PSK-Nummer (nicht bei FA 10, 13, 03, 14) wird bei Bearbeitung gesetzt:  101... Beleg in Verwahrung  102... Beleg in Vermittlung  104... Beleg in der Bestands- und Erfolgsverrechnung (BEV)  108... Beleg im Budesschatz  116... Beleg mit einem Differenz-Betrag in BEV  117... Beleg mit einem Differenz-Betrag in BEV in Verwahrung  118... Beleg mit einem Differenz-Betrag in BEV in Vermittlung",,,"SQLLOADER","DB2",2011-08-10
+"AE_BELEG","FINANZAMT_NR_AKTUELL","NUMBER(3)","AETBEL.FANR, AETBELX.FANR","aktuelle Finanzamtsnummer (durch Abtretung oder Rollout/WR)",,,"SQLLOADER","DB2",2011-08-10
+"AE_BELEG","STEUER_NR_AKTUELL","NUMBER(7)","AETBEL.STNR, AETBELX.STNR","aktuelle Steuernummer (durch Abtretung oder Rollout/WR)",,,"SQLLOADER","DB2",2011-08-10
+"AE_BELEG","LOESCH_DAT","DATE","AETBEL.DATLOE, AETBELX.DATLOE","Datum der Löschung des Datensatzes",,,"SQLLOADER","DB2",2011-08-10
+"AE_BELEG","VON_TS","TIMESTAMP","AETBEL.TS, AETBELX.TS","Zeitpunkt",,,"SQLLOADER","DB2",2011-08-10
+"AE_BELEG","URSPRUNG_FINANZAMT_NR","NUMBER(3)","AETBEL.FANRURSPR, AETBELX.FANRURSPR","ursprüngliche Finanzamtsnummer lt. Beleg",,,"SQLLOADER","DB2",2011-08-10
+"AE_BELEG","URSPRUNG_STEUER_NR","NUMBER(7)","AETBEL.STNRURSPR, AETBELX.STNRURSPR","ursprüngliche Steuernummer",,,"SQLLOADER","DB2",2011-08-10
+"AE_BELEG","INDIKATOR_TYP","VARCHAR2(1)","DUMMY.DUMMY_FELD_C1","X....AETBELX, NULL....AETBEL",,,"SQLLOADER","DB2",2011-08-10
+,,,,"AETBELZ /AETBELZX: Belegzeilen bzw. Belegzeilen für externe Fälle",,,,,
+"AE_BELEGZEILEN","VORGANG_ID","NUMBER(15)","AETBELZ.VID, AETBELZX.VID","Vorgänge – Identifikationsnummer",,,"SQLLOADER","DB2",2010-09-21
+"AE_BELEGZEILEN","SUB_NR","NUMBER(6)","AETBELZ.SUBNR, AETBELZX.SUBNR","Subnummer ist bei geteilten Belegen ungleich 0, sonst gleich 0",,,"SQLLOADER","DB2",2010-09-21
+"AE_BELEGZEILEN","ZEILEN_NR","NUMBER(6)","AETBELZ.ZNR, AETBELZX.ZNR","Zeilennummer",,,"SQLLOADER","DB2",2010-09-21
+"AE_BELEGZEILEN","ZR_JAHR","NUMBER(11)","AETBELZ.DATZR, AETBELZX.DATZR","Zeitraum, auf welchen sich der Rückstand bezieht
+Transformationslogik Appl:
+Originalspalte DATZR wird aufgeteilt auf fünf Spalten: DATZR1 entspricht JAHR",,,"SQLLOADER","DB2",2010-09-21
+"AE_BELEGZEILEN","ZR_MONAT_VON","NUMBER(11)","AETBELZ.DATZR, AETBELZX.DATZR","Zeitraum, auf welchen sich der Rückstand bezieht
+Transformationslogik Appl:
+Originalspalte DATZR wird aufgeteilt auf fünf Spalten: DATZR2 entspricht MONAT_VON",,,"SQLLOADER","DB2",2010-09-21
+"AE_BELEGZEILEN","ZR_MONAT_BIS","NUMBER(11)","AETBELZ.DATZR, AETBELZX.DATZR","Zeitraum, auf welchen sich der Rückstand bezieht
+Transformationslogik Appl:
+Originalspalte DATZR wird aufgeteilt auf fünf Spalten: DATZR3 entspricht MONAT_BIS",,,"SQLLOADER","DB2",2010-09-21
+"AE_BELEGZEILEN","ZR_TAG_VON_DAT","DATE","AETBELZ.DATZR, AETBELZX.DATZR","Zeitraum, auf welchen sich der Rückstand bezieht
+Transformationslogik Appl:
+Originalspalte DATZR wird aufgeteilt auf fünf Spalten: DATZR4 entspricht TAG_VON",,,"SQLLOADER","DB2",2010-09-21
+"AE_BELEGZEILEN","ABGABENART","NUMBER(6)","AETBELZ.AA, AETBELZX.AA","Werteliste in SVN!",,"ABGABENART","SQLLOADER","DB2",2010-09-21
+"AE_BELEGZEILEN","WAEHRUNGSCODE_WEISUNGSBETRAG","VARCHAR2(3)","AETBELZ.WCD, AETBELZX.WCD","Währungscode für Weisungsbeträge",,"WAEHRUNG","SQLLOADER","DB2",2010-09-21
+"AE_BELEGZEILEN","BETRAG_BELEGZEILE","NUMBER(13)","AETBELZ.BETRAG, AETBELZX.BETRAG","Betrag der Belegzeile",,,"SQLLOADER","DB2",2010-09-21
+"AE_BELEGZEILEN","WEISUNG","VARCHAR2(1)","AETBELZ.ARTZ, AETBELZX.ARTZ","Weisung (W) oder gezielte Entrichtung (G)",,,"SQLLOADER","DB2",2010-09-21
+"AE_BELEGZEILEN","RUECKSTAND_NR","NUMBER(6)","AETBELZ.NUM, AETBELZX.NUM","Rückstandsnummer (Numerator/AD) für UVA: Entragung der Gesetzesziffer bei AA = ’020’",,,"SQLLOADER","DB2",2010-09-21
+"AE_BELEGZEILEN","VON_TS","TIMESTAMP","AETBELZ.TS, AETBELZX.TS","Zeitpunkt",,,"SQLLOADER","DB2",2010-09-21
+"AE_BELEGZEILEN","ZEITRAUM","NUMBER","AETBELZ.DATZR, AETBELZX.DATZR","Original DATZR",,,"SQLLOADER","DB2",2010-09-21
+"AE_BELEGZEILEN","INDIKATOR_TYP","VARCHAR2(1)","DUMMY.DUMMY_FELD_C1",,,,"SQLLOADER","DB2",2010-09-21
+,,,,"AETEX / AETE: (externe) Erledigung",,,,,
+"AE_ERLEDIGUNG","VORGANG_ID","NUMBER(15)","AETE.VID, AETEX.VID","Vorgänge – Identifikationsnummer",,,"SQLLOADER","DB2",2010-10-31
+"AE_ERLEDIGUNG","ERLEDIGUNG_NR","NUMBER(6)","AETE.ERLNR, AETEX.ERLNR","Erledigungsnummer: absolute Nummer der Erledigungsfälle ab 1; für jeden Teilempfänger (Teilbeleg) nummeriert.",,,"SQLLOADER","DB2",2010-10-31
+"AE_ERLEDIGUNG","ART","VARCHAR2(4)","AETE.ART, AETEX.ART","Art der Erledigung Werteliste:  BS A Einziehung zum Bundesschatz (vom Abgabenkonto)  (FNR 110)  RZ Rückzahlung (FNR 120)  RZ A... Rückzahlung amtswegig (FNR 120)  RZ B... Bundesschatz (FNR 940)  RZ H... Rückzahlung händisch (FNR 120)  RZ S... sonstige Auszahlung (FNR 940)  RZ V... Rückzahlung aus Verwahrung (FNR 940)  UEB... Umbuchung (FNR 110)  UEBA... Umbuchung amtswegig (FNR 111)  UMR... Änderung von Rückstandsfeldern (FNR 116)  UMS... Rückstandsumwandlung in die Abgabenart 19 (FNR 110)  VW A... Verrechnung in Verwahrung (vom Abgabenkonto)  (FNR 110)",,,"SQLLOADER","DB2",2010-10-31
+"AE_ERLEDIGUNG","ERLEDIGUNGSART","VARCHAR2(2)","AETE.ERLART, AETEX.ERLART","Art der Erledigung Werteliste:  10... bar  12... unbar  20... bar/Abweisung (Teilabweisung)  25... unbar/Abweisung  30... Abweisung  40... Zurücknahme  50... Storno  51... Storno Fehlercode  60... miterledigt  65... Löschung einer Miterledigung  99... Zahlungsauftrag gedruckt (FIKTIV)",,,"SQLLOADER","DB2",2010-10-31
+"AE_ERLEDIGUNG","LAENDERKENNZEICHEN","VARCHAR2(2)","AETE.LKZ,  AETEX.LKZ","Länderkennzeichen Inlandszahlungsverkehr: immer blank  Auslandszahlungsverkehr/bar bzw. unbar (aus PHVDB.WCDNAMEN,  join mit WCD 3.Stelle=blank)  Auslandszahlungsverkehr/freies ATS-Konto: 'AT' erlaubt; entspricht dann AZV/unbar",,"STAAT","SQLLOADER","DB2",2010-10-31
+"AE_ERLEDIGUNG","AUSZAHLUNGSART","VARCHAR2(1)","AETE.AUSZ, AETEX.AUSZ","Auszahlung Werteliste:  'B'... Bar  'U'... Unbar  'E'... Unbar Auslandszahlungsverkehr; effekt. ATS  'S'... Scheck  nicht erlaubt bei LKZ=AT",,,"SQLLOADER","DB2",2010-10-31
+"AE_ERLEDIGUNG","BLZ_INLAND","NUMBER(11)","AETE.KTOPSK, AETEX.KTOPSK","Kontobankleitzahl Werteliste:  unbar: nur bei LKZ = blank oder 'AT', sonst blank",,,"SQLLOADER","DB2",2010-10-31
+"AE_ERLEDIGUNG","KONTO_INLAND","NUMBER(11)","AETE.KTOGIROI, AETEX.KTOGIROI","Kontogironummer im Inland Werteliste:  unbar: nur bei LKZ = blank oder 'AT', sonst blank",,,"SQLLOADER","DB2",2010-10-31
+"AE_ERLEDIGUNG","KONTO_AUSLAND","VARCHAR2(20)","AETE.KTOGIROA, AETEX.KTOGIROA","Kontogironummer im Ausland Werteliste:  unbar/Auslandszahlungsverkehr und LKZ ungleich 'AT', sonst blank",,,"SQLLOADER","DB2",2010-10-31
+"AE_ERLEDIGUNG","BANKNAME","VARCHAR2(70)","AETE.BANK, AETEX.BANK","Name der Bank Werteliste: Auslandszahlungsverkehr und LKZ ungleich ’AT’, sonst blank",,,"SQLLOADER","DB2",2010-10-31
+"AE_ERLEDIGUNG","EMPFAENGER_NAME","VARCHAR2(70)","AETE.NAMEZE, AETEX.NAMEZE","Name des Zahlungsempfängers",,,"SQLLOADER","DB2",2010-10-31
+"AE_ERLEDIGUNG","EMPFAENGER_ADRESSE","VARCHAR2(37)","AETE.ADRZE, AETEX.ADRZE","Adresse des Zahlungsempfängers Anmerkung: bar/Inlandszahlungsverkehr: 37-stellig bar/Auslandszahlungsverkehr: 35-stellig",,,"SQLLOADER","DB2",2010-10-31
+"AE_ERLEDIGUNG","INLAND_PLZ","VARCHAR2(10)","AETE.PLZZE, AETEX.PLZZE","Postleitzahl (und im Ausland auch Ort) des Zahlungsempfängers bar/Inlandszahlungsverkehr: 4-stellig bar/Auslandszahlungsverkehr: 35-stellig
+Transformationslogik Appl:
+Originalspalte PLZZE wird aufgeteilt auf zwei Spalten: PLZZE1 entspricht PLZ_INLAND",,,"SQLLOADER","DB2",2010-10-31
+"AE_ERLEDIGUNG","AUSLAND_PLZ_ORT","VARCHAR2(35)","AETE.PLZZE, AETEX.PLZZE","Postleitzahl (und im Ausland auch Ort) des Zahlungsempfängers bar/Inlandszahlungsverkehr: 4-stellig bar/Auslandszahlungsverkehr: 35-stellig
+Transformationslogik Appl:
+Originalspalte PLZZE wird aufgeteilt auf zwei Spalten: PLZZE2 entspricht PLZ_ORT_AUSLAND",,,"SQLLOADER","DB2",2010-10-31
+"AE_ERLEDIGUNG","AUSZAHLUNGSBETRAG","NUMBER(15)","AETE.BETRAUSZ, AETEX.BETRAUSZ","Auszahlungsbetrag (nicht bei Abweisung vorhanden), (’+’)",,,"SQLLOADER","DB2",2010-10-31
+"AE_ERLEDIGUNG","AKTUELL","VARCHAR2(1)","AETE.AKTUELL, AETEX.AKTUELL","aktueller Datensatz? (J/N)",,,"SQLLOADER","DB2",2010-10-31
+"AE_ERLEDIGUNG","VON_TS","TIMESTAMP","AETE.TS,  AETEX.TS","Zeitpunkt",,,"SQLLOADER","DB2",2010-10-31
+"AE_ERLEDIGUNG","MITERLEDIGT_VORGANG_ID","NUMBER(12)","AETE.VIDE, AETEX.VIDE","miterledigte Vorgänge – Identifikationsnummer",,,"SQLLOADER","DB2",2010-10-31
+"AE_ERLEDIGUNG","MITERLEDIGT_SUB_NR","NUMBER(6)","AETE.SUBNRE, AETEX.SUBNRE","miterledigte Subnummer (bei geteilten Belegen)",,,"SQLLOADER","DB2",2010-10-31
+"AE_ERLEDIGUNG","MITERLEDIGT_ANTRAGSART","VARCHAR2(4)","AETE.ARTE, AETEX.ARTE","miterledigte Antragsart",,,"SQLLOADER","DB2",2010-10-31
+"AE_ERLEDIGUNG","BLZ_AUSLAND","VARCHAR2(30)","AETE.BLZA, AETEX.BLZA","Bankleitzahl im Ausland (bei Auslandzahlungsanweisungen)",,,"SQLLOADER","DB2",2010-10-31
+"AE_ERLEDIGUNG","STAAT","VARCHAR2(3)","AETE.STAAT, AETEX.STAAT","Staat in dem die Zustelladresse im Ausland liegt",,"STAAT","SQLLOADER","DB2",2010-10-31
+"AE_ERLEDIGUNG","ORT_AUSLAND","VARCHAR2(35)","AETE.ORT, AETEX.ORT","Ort der Auslandszustelladresse",,,"SQLLOADER","DB2",2010-10-31
+"AE_ERLEDIGUNG","IBAN","VARCHAR2(35)","AETE.IBAN, AETEX.IBAN","IBAN Banknummer bei Auslandszahlungsverkehr",,,"SQLLOADER","DB2",2010-10-31
+"AE_ERLEDIGUNG","BIC","VARCHAR2(11)","AETE.BIC,  AETEX.BIC","BIC-Code (zusammen mit IBAN bei Auslandszahlungsverkehr)",,,"SQLLOADER","DB2",2010-10-31
+"AE_ERLEDIGUNG","INDIKATOR_TYP","VARCHAR2(1)","DUMMY.DUMMY_FELD_C1",,,,"SQLLOADER","DB2",2010-10-31
+,,,,"AETVX / AETV: (externer) Vorgang",,,,,
+"AE_VORGANG","VORGANG_ID","NUMBER(15)","AETV.VID,  AETVX.VID","Vorgänge – Identifikationsnummer",,,"SQLLOADER","DB2",2008-01-01
+"AE_VORGANG","SUB_NR","NUMBER(6)","AETV.SUBNR, AETVX.SUBNR","Subnummer",,,"SQLLOADER","DB2",2008-01-01
+"AE_VORGANG","VORGANGSART","VARCHAR2(4)","AETV.ART,  AETVX.ART","Art der Maßnahme Werteliste:  UEBA... Uebernahmsantrag  ABW... Abweisung  AEB... Aussetzung der Einbringung  AEN... AHE - Ende  AEW... Wiederaufnahme der Einbringung  AGA... außergerichtlicher Ausgleich  AGN... angenommen  AHUE... AHE / Haftung - Ueberm.  AHE... Amtshilfeersuchen  AHH... AHE / Haftung - Eingang  AHZ... AHE / Zoll  ANN... Annahme  AV... Aktenvermerk  AZV... Antrag Zwangsversteigerung  AZW... Antrag Zwangsverwaltung  BÜR... Buergschaft  BD... bedingt  BE... Beendigung  BEW... Bewilligung  BKG... Bankgarantie  BS... besucht  BVE... Berufung  BZV... Beitritt Zwangsversteigerung  BZW... Beitritt Zwangsverwaltung  DE... Drittschuldnererklaerung  DGF... durchgefuehrt  EG... eingeloest  EIN... eingelangt  EL... erfolglos  END... beendet  ER... erfolgreich  ERH... Erhebung  EST... eingestellt  FER... Forderungserhebung  FHV... Freihandverkauf  FPF... Forderungspfaendung  HAA... Herausgabeanspruch  HB... Haftungsbescheid  IAF... Anfechtung  IFA... Forderungsanmeldung  IMG... Mahnung  INS... Insolvenzverfahren  IQZ... Quotenzahlung  ITS... Tagsatzung  IVA... Aufhebung  IVE... Eroeffnung  KAN... Konkursantrag  KLG... Klage  LO... Loeschung  LOW... Widerruf der Loeschung  LPF... Lohnpfaendung  MAA... Meldeamtsanfrage  NA... Nachsicht  NAG... nicht angenommen  NAT... nicht angetroffen  NAW... Widerruf der Nachsicht  NBS... nicht besucht  NEG... nicht eingeloest  PRB... Pfandrechtsbegruendung  PRV... Pfandrechtsvormerkung  QE... Quote erfuellt  QNE... Quote nicht erfuellt  RA... Rückstandsausweis  RAH... haendischer RA  RAR... RA / TV (Rate)  RAS... RA / TV (sonstige Schuldigkeit)  RAT... RA / TV - Verstaendigung  RF... Rechtfertigung  RHE... Rechtshilfeersuchen - Ue<bermittlung  RHF... Rechtshilfeersuchen - Eingang  RZ... Rueckzahlung  RZE... Rueckabtretung  SCA... Scheckannahme  SIA... Sicherstellungsauftrag  SMI... Sonstige Maßnahme Innendienst  SPF... Sachpfaendung  STG... Stattgabe  STO... storniert  TE... Termin eingehalten  TNE... Termin nicht eingehalten  TS... Terminsetzung  TSF... Transferierung  TSP... Teilzahlung und Sachpfändung  TWS... teilweise Stattgabe  TZA... Teilzahlung  UBD... unbedingt  UEL... unerledigt  VGH... VGH - Beschwerde  VLI... Vorlage an II. Instanz  VMV... Vermögensverzeichnis  VOB... Vollstreckungsbescheid  VST... Versteigerung  VZA... Vollzahlung  WHG... Wohnungsaenderung  WNA... wird nicht angezeigt (Maßnahme enthaelt in sich die  Erledigung)  ZAD... Zuteilung Außendienst  ZAF... Zahlungsaufforderung  ZES... Zession  ZJ... Zahlung ja  ZN... Zahlung nein  ZNW... Zahlung nachgewiesen  ZW... Zurueckweisung",,,"SQLLOADER","DB2",2008-01-01
+"AE_VORGANG","AUSLOESENDES_PROGRAMM","VARCHAR2(4)","AETV.PROG, AETVX.PROG","auslösendes Programm",,,"SQLLOADER","DB2",2008-01-01
+"AE_VORGANG","FINANZAMT_NR_VORGANG_ID","NUMBER(3)","AETV.FANR, AETVX.FANR","Finanzamtsnummer des Vorganges wahlweise des Sender- oder des Empfängeramtes bei Vermittlungen) (0 = Dummy - Finanzamt) bezieht sich auf Vorgänge, die von anderen Vorgängen ausgelöst werden",,,"SQLLOADER","DB2",2008-01-01
+"AE_VORGANG","ABGABENKONTO_STEUER_NR","NUMBER(7)","AETV.STNR, AETVX.STNR","Steuernummer vom Abgabenkonto",,,"SQLLOADER","DB2",2008-01-01
+"AE_VORGANG","LOESCH_DAT","DATE","AETV.DATLOE, AETVX.DATLOE","Datum der Löschung des Datensatzes",,,"SQLLOADER","DB2",2008-01-01
+"AE_VORGANG","STATUS","VARCHAR2(1)","AETV.STAT, AETVX.STAT","Status 
+W
+V
+H
+U
+I
+K
+A
+Z
+N
+E
+F
+G
+S",,"STATUS","SQLLOADER","DB2",2008-01-01
+"AE_VORGANG","FEHLERTEXT","NUMBER(11)","AETV.FC, AETVX.FC","Fehlercode KEINE WERTELISTE VORHANDEN",,,"SQLLOADER","DB2",2008-01-01
+"AE_VORGANG","FEHLERERGAENZUNG","VARCHAR2(50)","AETV.FCX,  AETVX.FCX","Fehlerergänzung",,,"SQLLOADER","DB2",2008-01-01
+"AE_VORGANG","BELEG_ZEILEN_NR","NUMBER(6)","AETV.ZNR,  AETVX.ZNR","Zeilennummer des Beleges",,,"SQLLOADER","DB2",2008-01-01
+"AE_VORGANG","BUCHUNGSFELD_DAT","DATE","AETV.DATBUCH, AETVX.DATBUCH","Datum des Buchungsfeldes (Buchungstag)",,,"SQLLOADER","DB2",2008-01-01
+"AE_VORGANG","USER_VERSNR","VARCHAR2(10)","AETV.VNRUSER, AETVX.VNRUSER","Versicherungsnummer des Benutzers",,,"SQLLOADER","DB2",2008-01-01
+"AE_VORGANG","USER_ROLLE","VARCHAR2(10)","AETV.ROLLE, AETVX.ROLLE","Eigenschaft des Benutzers",,,"SQLLOADER","DB2",2008-01-01
+"AE_VORGANG","BILDSCHIRMLOKATION","VARCHAR2(8)","AETV.NETNAME, AETVX.NETNAME","Bildschirmlokation",,,"SQLLOADER","DB2",2008-01-01
+"AE_VORGANG","SACHBEARBEITER_AMT_NR","VARCHAR2(3)","AETV.AMTNR, AETVX.AMTNR","Amtsnummer des Sachbearbeiters",,,"SQLLOADER","DB2",2008-01-01
+"AE_VORGANG","BEDIENERKENNZEICHEN","VARCHAR2(15)","AETV.BKZ,  AETVX.BKZ","Bedienerkennzeichen RACF",,,"SQLLOADER","DB2",2008-01-01
+"AE_VORGANG","VON_TS","TIMESTAMP","AETV.TS,  AETVX.TS","Zeitpunkt des Vorganges",,,"SQLLOADER","DB2",2008-01-01
+"AE_VORGANG","USER_BEREICH_VERSNR","VARCHAR2(2)","AETV.BER,  AETVX.BER","Bereich des Benutzers gehört als Zusatzinformation zu VNRUSER",,"BEREICH","SQLLOADER","DB2",2008-01-01
+"AE_VORGANG","USER_TEAM_VERSNR","VARCHAR2(2)","AETV.TEAM, AETVX.TEAM","Team des Benutzers gehört als Zusatzinformation zu VNRUSER",,,"SQLLOADER","DB2",2008-01-01
+"AE_VORGANG","INDIKATOR_TYP","VARCHAR2(1)","DUMMY.DUMMY_FELD_C1",,,,"SQLLOADER","DB2",2008-01-01
+,,,,"AETVBEZ: Beziehungstabelle für Vorgänge",,,,,
+"AE_VORGANGS_BEZIEHUNG","VORGANG_ID","NUMBER(15)","AETVBEZ.VID","Vorgangsidentifikationsnummer",,,"SQLLOADER","DB2",2010-03-29
+"AE_VORGANGS_BEZIEHUNG","SUB_NR","NUMBER(6)","AETVBEZ.SUBNR","Subnummer zu VID",,,"SQLLOADER","DB2",2010-03-29
+"AE_VORGANGS_BEZIEHUNG","VORGANGSART","VARCHAR2(4)","AETVBEZ.ART","Art des Vorganges, z. B. UVA",,,"SQLLOADER","DB2",2010-03-29
+"AE_VORGANGS_BEZIEHUNG","VORGANGSBEZIEHUNG","VARCHAR2(4)","AETVBEZ.BEZ","Vorgangsbeziehung, z. B. AN (Antrag), ERL (Erledigung)",,,"SQLLOADER","DB2",2010-03-29
+"AE_VORGANGS_BEZIEHUNG","FOLGE_VORGANG_ID","NUMBER(15)","AETVBEZ.VID2","in Beziehung stehender (Vorgänger-/Nachfolge-) Vorgang",,,"SQLLOADER","DB2",2010-03-29
+"AE_VORGANGS_BEZIEHUNG","FOLGE_SUB_NR_VORGANG_ID","NUMBER(6)","AETVBEZ.SUBNR2","Subnummer zum in Beziehung stehenden Vorgang",,,"SQLLOADER","DB2",2010-03-29
+"AE_VORGANGS_BEZIEHUNG","FOLGE_ART","VARCHAR2(4)","AETVBEZ.ART2","Art des in Beziehung stehenden Vorganges, z. B. SB, RZ, UEB",,,"SQLLOADER","DB2",2010-03-29
+,,,,"AETBUFH / AETBUF : (historische) Buchungen",,,,,
+"AE_BUCHUNG","FINANZAMT_NR","NUMBER(3)","AETBUF.FANR, AETBUFH.FANR","Finanzamtnummer",,,"SQLLOADER","DB2",2010-07-25
+"AE_BUCHUNG","STEUER_NR","NUMBER(7)","AETBUF.STNR, AETBUFH.STNR","Steuernummer",,,"SQLLOADER","DB2",2010-07-25
+"AE_BUCHUNG","LOESCH_DAT","DATE","AETBUF.DATLOE, AETBUFH.DATLOE","Datum der Datensatzlöschung (Das Attribut wird als gelöscht gekennzeichnet. Der Satz wir aber nicht physisch gelöscht.)",,,"SQLLOADER","DB2",2010-07-25
+"AE_BUCHUNG","BUCHUNG_DAT","DATE","AETBUF.DATBUCH, AETBUFH.DATBUCH","Buchungsdatum",,,"SQLLOADER","DB2",2010-07-25
+"AE_BUCHUNG","VERARBEITUNGSEINHEIT","NUMBER(1)","AETBUF.VERARB, AETBUFH.VERARB","Verarbeitungseinheit, in Verbindung mit TNR eindeutigkeit",,,"SQLLOADER","DB2",2010-07-25
+"AE_BUCHUNG","TRANSAKTION_NR","NUMBER(3)","AETBUF.TNR, AETBUFH.TNR","Transaktionsnummer",,,"SQLLOADER","DB2",2010-07-25
+"AE_BUCHUNG","GESCHAEFTSFALLCODE","NUMBER(6)","AETBUF.GFC, AETBUFH.GFC","Geschäftsfallcode Werteliste: 0 (INDGFC=0)... Zahlung  0 (INDGFC=1)... Stornierung einer Zahlung  0 (INDGFC=2)... Drittschuldnerzahlung  1 (INDGFC=0)... Zahlung mit Verrechnungsweisung  1 (INDGFC=1)... Buchung  1 (INDGFC=2)... Stornobuchung  1 (INDGFC=3)... Stornierung einer Zahlung  6 (INDGFC=0)... Zahlung  6 (INDGFC=1)... Buchung  6 (INDGFC=2)... Stornobuchung  10 (INDGFC=0)... UEbertragung  11 (INDGFC=0)... UEbertragung  16 (INDGFC=0)... UEbertragung  20 (INDGFC=0)... Rueckzahlung  31 (INDGFC=0)... Festsetzung  31 (INDGFC=1)... Jahresbuchung  34 (INDGFC=0)... Festsetzung  36 (INDGFC=0)... Festsetzung  38 (INDGFC=0)... Festsetzung  41 (INDGFC=0)... Festsetzung  41 (INDGFC=1)... Jahresbuchung  41 (INDGFC=2)... Sammelbuchung Festsetzungen  44 (INDGFC=0)... Festsetzung  46 (INDGFC=0)... Festsetzung  48 (INDGFC=0)... Festsetzung  50 (INDGFC=0)... Berichtigte Festsetzung  51 (INDGFC=0)... Abgeaenderte Festsetzung  52 (INDGFC=0)... Bescheidaufhebung  53 (INDGFC=0)... Wiederaufnahme des Verfahrens  54 (INDGFC=0)... Berufungsvorentscheidung  58 (INDGFC=0)... Berufungsentscheidung  58 (INDGFC=1)... Rechtsmittelentscheidung  59 (INDGFC=0)... Bescheidabaenderung  60 (INDGFC=0)... Vierteljahresbuchung  61 (INDGFC=0)... Anrechnung  62 (INDGFC=0)... Jahresbuchung  65 (INDGFC=0)... UEbertragung von Gebarungsdaten  78 (INDGFC=0)... Anzeige  78 (INDGFC=1)... Voranmeldung  78 (INDGFC=2)... Anmeldung  78 (INDGFC=3)... Buchung  78 (INDGFC=4)... Berichtigung  79 (INDGFC=0)... Erklaerung  83 (INDGFC=0)... Aussetzung der Einhebung  84 (INDGFC=0)... Ablauf einer Aussetzung der Einhebung  84 (INDGFC=1)... Widerruf einer Aussetzung der Einhebung  84 (INDGFC=2)... AEnderung einer Aussetzung der Einhebung  84 (INDGFC=3)... AEnderung einer Aussetzung einer Einhebung  84 (INDGFC=4)... Stornierung einer Aussetzung einer Einhebung  86 (INDGFC=0)... Buchung  88 (INDGFC=0)... Buchung  91 (INDGFC=0)... Loeschung  91 (INDGFC=1)... Stornierung einer Loeschung  91 (INDGFC=2)... Abschreibung  91 (INDGFC=3)... Stornierung einer Abschreibung  92 (INDGFC=0)... Nachsicht  92 (INDGFC=1)... Stornierung einer Nachsicht  92 (INDGFC=5)... Centausgleich  93 (INDGFC=0)... Aussetzung der Einbringung  93 (INDGFC=1)... Stornierung einer Aussetzung der Einbringung  94 (INDGFC=0)... Widerruf einer Loeschung  94 (INDGFC=1)... Stornierung eines Widerrufes einer Loeschung  95 (INDGFC=0)... Widerruf einer Nachsicht  95 (INDGFC=1)... Stornierung eines Widerrufes einer Nachsicht  96 (INDGFC=0)... Wiederaufnahme einer Einbringung  96 (INDGFC=1)... Stornierung einer Wiederaufnahme einer Einbringung  99 (INDGFC=0)... Stornierung",,"GESCHAEFTSFALL","SQLLOADER","DB2",2010-07-25
+"AE_BUCHUNG","INDIKATION_GESCHAEFTSFALLCODE","NUMBER(1)","AETBUF.INDGFC, AETBUFH.INDGFC","Indikation zum Geschäftsfallcode (Bedeutung des Codes siehe Tabelle AETGFC) Werteliste: 0,1, 2, 3,4 ,5  Dieses Attribut gemeinsam mit dem GFC bildet eine eindeutige Benennung des Geschäftsfalles.  Beispiel:  31 (INDGFC=1)... Jahresbuchung  34 (INDGFC=0)... Festsetzung  44 (INDGFC=0)... Festsetzung  86 (INDGFC=0)... Buchung  95 (INDGFC=0)... Widerruf einer Nachsicht",,,"SQLLOADER","DB2",2010-07-25
+"AE_BUCHUNG","ZR_JAHR","NUMBER(11)","AETBUF.DATZRENTR, AETBUFH.DATZRENTR","Zeitraum bzw. Einrichtungstag
+Transformationslogik Appl:
+Originalspalte DATZRENTR wird aufgeteilt auf fünf Spalten: DATZRENTR1 entspricht JAHR",,,"SQLLOADER","DB2",2010-07-25
+"AE_BUCHUNG","ZR_MONAT_VON","NUMBER(11)","AETBUF.DATZRENTR, AETBUFH.DATZRENTR","Zeitraum bzw. Einrichtungstag
+Transformationslogik Appl:
+Originalspalte DATZRENTR wird aufgeteilt auf fünf Spalten: DATZRENTR2 entspricht MONAT_VON",,,"SQLLOADER","DB2",2010-07-25
+"AE_BUCHUNG","ZR_MONAT_BIS","NUMBER(11)","AETBUF.DATZRENTR, AETBUFH.DATZRENTR","Zeitraum bzw. Einrichtungstag
+Transformationslogik Appl:
+Originalspalte DATZRENTR wird aufgeteilt auf fünf Spalten: DATZRENTR3 entspricht MONAT_BIS",,,"SQLLOADER","DB2",2010-07-25
+"AE_BUCHUNG","ZR_TAG_VON_DAT","DATE","AETBUF.DATZRENTR, AETBUFH.DATZRENTR","Zeitraum bzw. Einrichtungstag
+Transformationslogik Appl:
+Originalspalte DATZRENTR wird aufgeteilt auf fünf Spalten: DATZRENTR4 entspricht TAG_VON",,,"SQLLOADER","DB2",2010-07-25
+"AE_BUCHUNG","FAELLIGKEITSTAG_DAT","DATE","AETBUF.DATFAELL, AETBUFH.DATFAELL","Fälligkeitstag",,,"SQLLOADER","DB2",2010-07-25
+"AE_BUCHUNG","ZR_JAHR_ZAHLUNGSFRIST","NUMBER(11)","AETBUF.DATFRIST, AETBUFH.DATFRIST","Zahlungsfrist (Zahlungsfrist bei der Erstellung einer Rechnung)",,,"SQLLOADER","DB2",2010-07-25
+"AE_BUCHUNG","ZR_MONAT_VON_ZAHLUNGSFRIST","NUMBER(11)","AETBUF.DATFRIST, AETBUFH.DATFRIST","Zahlungsfrist (Zahlungsfrist bei der Erstellung einer Rechnung)",,,"SQLLOADER","DB2",2010-07-25
+"AE_BUCHUNG","ZR_MONAT_BIS_ZAHLUNGSFRIST","NUMBER(11)","AETBUF.DATFRIST, AETBUFH.DATFRIST","Zahlungsfrist (Zahlungsfrist bei der Erstellung einer Rechnung)",,,"SQLLOADER","DB2",2010-07-25
+"AE_BUCHUNG","ZR_TAG_VON_DAT_ZAHLUNGSFRIST","DATE","AETBUF.DATFRIST, AETBUFH.DATFRIST","Zahlungsfrist (Zahlungsfrist bei der Erstellung einer Rechnung)",,,"SQLLOADER","DB2",2010-07-25
+"AE_BUCHUNG","ZAHLUNGSFRIST_P210_DAT","DATE","AETBUF.DATFR210, AETBUFH.DATFR210","Zahlungsfrist (§210)",,,"SQLLOADER","DB2",2010-07-25
+"AE_BUCHUNG","ABGABENART","NUMBER(6)","AETBUF.AA, AETBUFH.AA","Abgabenart Werteliste:  0... Umsatzsteuer  1.. Umsatzsteuer (Fahrzeugeinzelbesteuerung)  2... Umsatzsteuer-Sondervorauszahlung  3... Abzugsteuer Werkvertrag  4... Investitionspraemie  5... Abgabe von alkoholischen Getränken  6... Weinsteuer  8... Sonderabgabe von Erdoel  9... Sonderabgabe von Banken  10... Zinsertragssteuer  11... Kapitalertragssteuer  12... Lohnsteuer  13... Einkommmensteuer  14... Einkommensteuer / beschraenkt steuerpfl.  15... Kapitalertragsteuer  16... Aufsichtsratsabgabe  17... Altlastenbeitrag  18... Normverbrauchsabgabe  20... Gewerbesteuer  22... Erstattungsbeitraege / Kinderzuschlag  23... Erstattungsbeitraege / Kapitalertragssteuer  26... Sicherheitsbeitrag  27... Elektrizitaetsabgabe  28... Erdgasabgabe  29... Energieabgabenvergütung  30... Koerperschaftssteuer  31... Koerperschaftssteuer / beschraenkt steuerpf.  32... IF-Sondervorauszahlung  33... IF-Sondervorauszahlung  34... Abgabe von Zuwendungen  35... Heiratsbeihilfe  36... Rueckforderungsbetraege / Mietzinsbeihilfe  37... Rueckforderungsbetraege / Wertpapiersparen  38... Rückforderungsbetraege Bausparen  39... Nachversteuerungsbeträge / Sonderausgaben  40... Kammerumlage  41... Grundbetrag Landwirtschaftskammerumlage  42... Kleinkindbeihilfe  43... Kinderabsetzbetrag  44... Familienbeihilfe  45... Dienstgeberbeitrag  46... Familienbeihilfe  47... Zuschlag zum Dienstgeberbeitrag  48... Geburtenbeihilfe  49... Schulfahrtbeihilfe  50... Geburtenbeihilfe - Sonderzahlung  51... Straßenverkehrsbeitrag  52... Geburtenbeihilfe - Zuschlag  53... Geburtenbeihilfe - Zuschuß  54... Straßenbenützungsabgabe  55... Fahrtenbeihilfe fuer Lehrlinge  59... Karenzurlaubsgeld / Teilzeitbeihilfe  60... Tabaksteuer  61... Biersteuer  63... Mineraloelsteuer  64... Bundesmineralölsteuer  65... Branntweinaufschlag / Verschlußbrennereien  66... Branntweinaufschlag  68... Schaumweinsteuer  69... Abgabe auf bestimmte Staerkeerzeugnisse  71... Beitraege/ Abgabe v. land- u. forstwirtschaftl. Betr.  72... Beitraege/ Abgabe v. land- u. forstwirtschaftl. Betr.  73... Beitraege/ Abgabe v. land- u. forstwirtschaftl. Betr.  74... Bodenwertabgabe  75... Beitrag/ Wohnhauswiederaufb.  76... Vermoegensteuer  78... Erbschaftssteueraequivalent  79... Tilgungsbeitraege - Kapitalstilgung  80... Resteingang einer weggefallenen Abgabe  81... Tilgungsbeitraege - Zinsen  82... Abgabenerhoehung  83... Verspätungszuschlag  84... Kostenersatz / Kosten der Ersatzvornahme  85... Zwangs- und Ordnungsstrafen  86... Geldstrafe (nach dem Finanzstrafgesetz)  87... verfallene Geldbetraege und Wertersaetze  88... Verfallserlöse  90... Kosten des Finanzstrafverfahrens  91... Mahngebuehr  92... Aussetzungszinsen  93... Pfaendungsgebuehr  94... Versteigerungsgebuehr  95... Barauslagenersatz  96... Gebuehren und Kostenersaetze  97... Stundungszinsen  98... Säumniszuschlag  100... Umsatzabgaben  101... Selbstbemessungsabgabenarten  112... Lohnabgaben  120... zu veranlagende Abgabenarten  400... Gebuehren  405... Gebuehren aus dem Gluecksspielmonopol  406... Wettgebuehrenzuschlaege  410... Erbschaftssteuer  411... Erbschaftssteuer  412... Erbschaftssteuer  413... Erbschaftssteuer  420... Schenkungssteuer  421... Schenkungssteuer  422... Schenkungssteuer  423... Schenkungssteuer  430... Grunderwerbssteuer  431... Grunderwerbssteuer  432... Grunderwerbssteuer  433... Grunderwerbssteuer",,"ABGABENART","SQLLOADER","DB2",2010-07-25
+"AE_BUCHUNG","ENTRICHTUNGSFORM_CODE","NUMBER(6)","AETBUF.EF, AETBUFH.EF","Entrichtungsform (Code zur jeweiligen Entrichtungsform)",,,"SQLLOADER","DB2",2010-07-25
+"AE_BUCHUNG","BETRAG","NUMBER(13)","AETBUF.BETRAG, AETBUFH.BETRAG","Entrichtungsform (Entrichtungsform 1000 + EFX (Zahlencode)) Werteliste:  -1... Keine Entrichtungsform  1000... zur Abgabenentrichtung werden lediglich Gutschriften an  Selbstbemessungsabgaben herangezogen (Sonderverrechnungsgebarung I)  1001... Barzahlung im Vollstreckungsverfahren  1002... Einzahlung mit Erlagschein  1003... Einzahlung durch Postanweisung  1004... UEberweisung auf das Postscheckkonto des Finanzamtes  1005... UEberweisung auf das Nationalbankkonto des Finanzamtes  1006... UEberweisung mit Mahnerlagschein auf das Nationalbankkonto des Finanzamtes  1007... Zahlung mit Scheck auf das Postscheckkonto des Finanzamtes  1008... Zahlung mit Scheck auf das Nationalbankkonto des Finanzamtes  1009... Entrichtung durch Umbuchung/ Ueberrechnung  1010... Ueberweisung in DM (Deutsche Mark) auf ein Konto bei einer auslaendischen Kreditunternehmung (nur fuer Finanzaemter Bregenz und Reutte)  1011... RUeckverrechnung oder GewAehrung einer VerkaufsvergUetung  1012... Freiwillige Barzahlung  1013... Einzahlung mit Mahnerlagschein  1014... UEberweisung mit Mahnerlagschein auf das Postscheckkonto des Finanzamtes  1015... Bundesschatz  1016... Finanzverwahrung",,,"SQLLOADER","DB2",2010-07-25
+"AE_BUCHUNG","INDIKATION_FRIST","NUMBER(1)","AETBUF.IND2172, AETBUFH.IND2172","Indikation über §217/2 Frist",,,"SQLLOADER","DB2",2010-07-25
+"AE_BUCHUNG","OFFENE_EINWEISUNG","NUMBER(1)","AETBUF.INDEIOFF, AETBUFH.INDEIOFF","offene Einweisung",,,"SQLLOADER","DB2",2010-07-25
+"AE_BUCHUNG","INDIKATION_ZE","NUMBER(1)","AETBUF.INDZE, AETBUFH.INDZE","von ZE betroffen",,,"SQLLOADER","DB2",2010-07-25
+"AE_BUCHUNG","INDIKATION_FT","NUMBER(1)","AETBUF.INDFT, AETBUFH.INDFT","von FT betroffen",,,"SQLLOADER","DB2",2010-07-25
+"AE_BUCHUNG","INDIKATION_VERRECHNUNGSWEISUNG","NUMBER(1)","AETBUF.IND101, AETBUFH.IND101","Indikation zur Verrechnungsweisung Werteliste:  1... BP-Prüfung  2... USO-Prüfung  3... Jahreserklärungsprüfung BP (Erhebungsdienst)  4... Jahreserklärungsprüfung USO  5... UMA-Prüfung  6... LS-Prüfung  7.... GPLA (Gemeinsame Prüfung Lohnsteuer-Abgaben) der BP (Betriebsprüfung)  0... keine Prüfung aktiv",,,"SQLLOADER","DB2",2010-07-25
+"AE_BUCHUNG","ABGABENART_SAEUMNISZUSCHLAG","NUMBER(6)","AETBUF.AASZ, AETBUFH.AASZ","Abgabeart zu der SZ festgesetzt wurde (allerdings kann hier der Zeitraum nicht festgestellt werden)",,"ABGABENART","SQLLOADER","DB2",2010-07-25
+"AE_BUCHUNG","NR","NUMBER(6)","AETBUF.NR, AETBUFH.NR","NR",,,"SQLLOADER","DB2",2010-07-25
+"AE_BUCHUNG","INDIKATION_DRITTSCHULDNER","NUMBER(1)","AETBUF.INDDRITT, AETBUFH.INDDRITT","Drittschuldnerindikation",,,"SQLLOADER","DB2",2010-07-25
+"AE_BUCHUNG","SALDO","NUMBER(15)","AETBUF.SALDO, AETBUFH.SALDO","Saldo",,,"SQLLOADER","DB2",2010-07-25
+"AE_BUCHUNG","VORGANG_ID","NUMBER(15)","AETBUF.VID, AETBUFH.VID","Vorgänge – Identifikationsnummer",,,"SQLLOADER","DB2",2010-07-25
+"AE_BUCHUNG","SUB_NR","NUMBER(6)","AETBUF.SUBNR, AETBUFH.SUBNR","Subnummer (ist bei geteilten Belegen ungleich 0, sonst gleich 0)",,,"SQLLOADER","DB2",2010-07-25
+"AE_BUCHUNG","ZEITRAUM","NUMBER","AETBUF.DATZRENTR, AETBUFH.DATZRENTR","Original DATZR",,,"SQLLOADER","DB2",2010-07-25
+"AE_BUCHUNG","ZEITRAUM_ZAHLUNGSFRIST","NUMBER","AETBUF.DATFRIST, AETBUFH.DATFRIST","Original DATZR",,,"SQLLOADER","DB2",2010-07-25
+,,,,"AETOEN1K : OENACE",,,,,
+"AE_OENACE","ABSCHNITT","VARCHAR2(9)","AETOEN1K.ABSCHNITT","ABSCHNITT",,,"SQLLOADER","DB2",2010-02-10
+"AE_OENACE","OENACE","VARCHAR2(7)","AETOEN1K.OENACE","OENACE",,,"SQLLOADER","DB2",2010-02-10
+"AE_OENACE","TEXT","VARCHAR2(178)","AETOEN1K.TEXT","Text",,,"SQLLOADER","DB2",2010-02-10
+,,,,"AETGFC : Geschäftsfallcodes",,,,,
+"AE_GFC","GF_CODE","NUMBER (6)","AETGFC.GFC","Geschäftsfällecode",,,"SQLLOADER","DB2",2010-02-10
+"AE_GFC","INDIKATION_GFC","NUMBER (6)","AETGFC.INDGFC","Indikation zu Geschäftsfällecode.",,,"SQLLOADER","DB2",2010-02-10
+"AE_GFC","LANGTEXT","VARCHAR2 (80)","AETGFC.TEXTL","Text-Erklärung zu Geschäftsfällecode (lang) ",,,"SQLLOADER","DB2",2010-02-10
+"AE_GFC","KURZTEXT","VARCHAR2 (40)","AETGFC.TEXTK","Text-Erklärung zu Geschäftsfällecode (kurz)",,,"SQLLOADER","DB2",2010-02-10
+,,,,"AETAA : Abgabenarten",,,,,
+"AE_AA","CODE_ABGABENART","NUMBER (6)","AETAA.AA","Abgabenart",,"ABGABENART","SQLLOADER","DB2",2010-02-10
+"AE_AA","ABGABENART","VARCHAR2 (3)","AETAA.AAX","Abgabenart (alphanumerischer Wert) ",,,"SQLLOADER","DB2",2010-02-10
+"AE_AA","ANTWORT_ABGABENART","VARCHAR2 (3)","AETAA.AAA","AAX wenn eindeutig, sonst = AA ",,,"SQLLOADER","DB2",2010-02-10
+"AE_AA","EINSATZDATUM","NUMBER (4)","AETAA.DATAB","Einsatzdatum für die betreffende Abgabenart",,,"SQLLOADER","DB2",2010-02-10
+"AE_AA","LANGTEXT","VARCHAR2 (80)","AETAA.TEXT","Langtext",,,"SQLLOADER","DB2",2010-02-10
+"AE_AA","SELBSTBEMESSUNG","VARCHAR2 (1)","AETAA.SB","Selbstbemessung (Wertevorrat J / N)
+J für AA = 0, 1, 3, 5, 6, 9, 12, 17, 18, 26,
+27, 28, 32, 33, 40, 44, 45, 47, 51, 54 sonst N ",,,"SQLLOADER","DB2",2010-02-10
+"AE_AA","NEBENANSPRUCH","VARCHAR2 (1)","AETAA.NA","Nebenanspruch",,,"SQLLOADER","DB2",2010-02-10
+"AE_AA","NEBENGEBUEHR","VARCHAR2 (1)","AETAA.NG","Nebengebuehr",,,"SQLLOADER","DB2",2010-02-10
+"AE_AA","STRAFE","VARCHAR2 (1)","AETAA.ST","Strafe (J/N)",,,"SQLLOADER","DB2",2010-02-10
+"AE_AA","VERLANGEN","VARCHAR2 (1)","AETAA.VA","zu veranlagen (J / N)",,,"SQLLOADER","DB2",2010-02-10
+"AE_AA","ART_ABGABENART","NUMBER (6)","AETAA.AAKT","0... wenn AA = 0 (Umsatzsteuer)
+13... wenn AA = 13 (Einkommensteuer)
+20 wenn AA = 20 (Grunderwerbsteuer)
+-1... wenn kein AKT vorhanden ist.
+",,,"SQLLOADER","DB2",2010-02-10
+"AE_AA","KONTOTYP_1","VARCHAR2 (1)","AETAA.K2131","Kontotyp §213/1 (J / N)",,,"SQLLOADER","DB2",2010-02-10
+"AE_AA","KONTOTYP_2","VARCHAR2 (1)","AETAA.K2132","Kontotyp §213/2 (J / N)","  ",,"SQLLOADER","DB2",2010-02-10
+"AE_AA","KONTOTYP_3","VARCHAR2 (1)","AETAA.K2133","Kontotyp §213/3 (J / N)",,,"SQLLOADER","DB2",2010-02-10
+"AE_AA","KONTOTYP_GRUIS","VARCHAR2 (1)","AETAA.KGR","Kontotyp GRUIS (J / N)",,,"SQLLOADER","DB2",2010-02-10
+"AE_AA","SAMMELKONTO_1","VARCHAR2 (1)","AETAA.SK1","Sammelkonto 1 ( J / N)",,,"SQLLOADER","DB2",2010-02-10
+"AE_AA","SAMMELKONTO_2","VARCHAR2 (1)","AETAA.SK2","Sammelkonto 2 ( J / N)",,,"SQLLOADER","DB2",2010-02-10
+"AE_AA","KURZTEXT","VARCHAR2 (27)","AETAA.KTEXT","Kurztext",,,"SQLLOADER","DB2",2010-02-10
+"AE_AA","TEXT","VARCHAR2 (50)","AETAA.TEXT3F","Text mit Artikel",,,"SQLLOADER","DB2",2010-02-10
+,,,,"AETHBMT2 : MONNACH",,,,,
+"AE_HBMT2","JAHR_MONAT","VARCHAR2 (6)","AETHBMT2.JJJJMM","JJJJMM",,,"SQLLOADER","DB2",2010-02-10
+"AE_HBMT2","AUSWERT","VARCHAR2 (10)","AETHBMT2.AUSWERT","AUSWERT",,,"SQLLOADER","DB2",2010-02-10
+"AE_HBMT2","BEREICH","VARCHAR2 (6)","AETHBMT2.BEREICH","BEREICH",,,"SQLLOADER","DB2",2010-02-10
+"AE_HBMT2","KONTO","VARCHAR2 (6)","AETHBMT2.KONTO","KONTO",,,"SQLLOADER","DB2",2010-02-10
+"AE_HBMT2","BETRAG1","NUMBER (15,2)","AETHBMT2.BETRAG1","BETRAG1",,,"SQLLOADER","DB2",2010-02-10
+"AE_HBMT2","BETRAG2","NUMBER (15,2)","AETHBMT2.BETRAG2","BETRAG2",,,"SQLLOADER","DB2",2010-02-10
+"AE_HBMT2","BETRAG3","NUMBER (15,2)","AETHBMT2.BETRAG3","BETRAG3",,,"SQLLOADER","DB2",2010-02-10
+"AE_HBMT2","BETRAG4","NUMBER (15,2)","AETHBMT2.BETRAG4","BETRAG4",,,"SQLLOADER","DB2",2010-02-10
+"AE_HBMT2","BETRAG5","NUMBER (15,2)","AETHBMT2.BETRAG5","BETRAG5",,,"SQLLOADER","DB2",2010-02-10
+"AE_HBMT2","BETRAG6","NUMBER (15,2)","AETHBMT2.BETRAG6","BETRAG6",,,"SQLLOADER","DB2",2010-02-10
+"AE_HBMT2","BETRAG7","NUMBER (15,2)","AETHBMT2.BETRAG7","BETRAG7",,,"SQLLOADER","DB2",2010-02-10
+"AE_HBMT2","BETRAG8","NUMBER (15,2)","AETHBMT2.BETRAG8","BETRAG8",,,"SQLLOADER","DB2",2010-02-10
+"AE_HBMT2","BETRAG9","NUMBER (15,2)","AETHBMT2.BETRAG9","BETRAG9",,,"SQLLOADER","DB2",2010-02-10
+"AE_HBMT2","KONTO_TEXT","VARCHAR2 (160)","AETHBMT2.KONTO_TEXT","KONTO_TEXT",,,"SQLLOADER","DB2",2010-02-10
+"AE_HBMT2","K_TEXT","VARCHAR2 (39)","AETHBMT2.K_TEXT","K_TEXT",,,"SQLLOADER","DB2",2010-02-10
+,,,,"AETA2",,,,,
+"AE_A2","VORGANGS_ID","NUMBER (15)","AETA2.VID, AETA2X.VID","Vorgaenge - Identifikationsnummer",,,"SQLLOADER","DB2",2010-10-31
+"AE_A2","ANTRAGSART","VARCHAR2 (4)","AETA2.ART, AETA2X.ART","ABW... Abweisung eines ZE-Ansuchens (FNR 520)
+AEB... Aussetzung der Einbringung (FNR 193)
+AEBA... Aussetzung der Einbringung amtswegig (FNR 193)
+AEW... Aussetzung der Einbringung Wiederaufnahme (FNR 196)
+AEWA... Aussetzung der Einbringung Wiederaufnahme amtswegig  ..........",,,"SQLLOADER","DB2",2010-10-31
+"AE_A2","NUMMER","NUMBER(6)","AETA2.NR, AETA2X.NR","Nummer (Gutschrift)",,,"SQLLOADER","DB2",2010-10-31
+"AE_A2","ZR_JAHR","NUMBER","AETA2.DATZRZE, AETA2X.DATZRZE  ","Datum Zeitraum oder Datum ZE-Termin. Transformationslogik Appl:
+Originalspalte DATZRZE wird aufgeteilt auf vier Spalten",,,"SQLLOADER","DB2",2010-10-31
+"AE_A2","ZR_MONAT_VON","NUMBER","AETA2.DATZRZE, AETA2X.DATZRZE","Datum Zeitraum oder Datum ZE-Termin. Transformationslogik Appl:
+Originalspalte DATZRZE wird aufgeteilt auf vier Spalten",,,"SQLLOADER","DB2",2010-10-31
+"AE_A2","ZR_MONAT_BIS","NUMBER","AETA2.DATZRZE, AETA2X.DATZRZE","Datum Zeitraum oder Datum ZE-Termin. Transformationslogik Appl:
+Originalspalte DATZRZE wird aufgeteilt auf vier Spalten",,,"SQLLOADER","DB2",2010-10-31
+"AE_A2","ZR_TAG_VON_DAT","DATE","AETA2.DATZRZE, AETA2X.DATZRZE  ","Datum Zeitraum oder Datum ZE-Termin. Transformationslogik Appl:
+Originalspalte DATZRZE wird aufgeteilt auf vier Spalten",,,"SQLLOADER","DB2",2010-10-31
+"AE_A2","ABGABENART","NUMBER(6)","AETA2.AA, AETA2X.AA","0... Umsatzsteuer
+1.. Umsatzsteuer (Fahrzeugeinzelbesteuerung)
+2... Umsatzsteuer-Sondervorauszahlung
+3... Abzugsteuer Werkvertrag
+4... Investitionspraemie
+5... Abgabe von alkoholischen Getränken 
+.......",,"ABGABENART","SQLLOADER","DB2",2010-10-31
+"AE_A2","FAELLIG_DAT","DATE","AETA2.DATFAELLN, AETA2X.DATFAELLN","geänderter Fälligkeitstag",,,"SQLLOADER","DB2",2010-10-31
+"AE_A2","FRIST_DAT","DATE","AETA2.DATFRISTN, AETA2X.DATFRISTN","geänderte Zahlungsfrist ",,,"SQLLOADER","DB2",2010-10-31
+"AE_A2","NACHFRAGE_DAT","DATE","AETA2.DATNACHFN, AETA2X.DATNACHFN","geänderte Nachfrist",,,"SQLLOADER","DB2",2010-10-31
+"AE_A2","WIEDERAUFNAHME","VARCHAR2 (1)","AETA2.SZW, AETA2X.SZW","Wiederaufnahme automatische SZ F = Fälligkeitstag
+Z = Zahlungsfrist
+N = Nachfrist",,,"SQLLOADER","DB2",2010-10-31
+"AE_A2","BETRAG","NUMBER (13)","AETA2.BETRAG, AETA2X.BETRAG","rückzuzahlender Betrag ",,,"SQLLOADER","DB2",2010-10-31
+"AE_A2","NUMERATOR_AD","NUMBER(6)","AETA2.NUM, AETA2X.NUM","(Rückstandsnummer) Numerator/AD",,,"SQLLOADER","DB2",2010-10-31
+"AE_A2","VON_TS","TIMESTAMP","AETA2.TS, AETA2X.TS","Zeitpunkt der Datensatzerstellung",,,"SQLLOADER","DB2",2010-10-31
+"AE_A2","UNTERBRECHUNG_END_DAT","DATE","AETA2.DATENDUB, AETA2X.DATENDUB","Datum Ende der Unterbrechnung",,,"SQLLOADER","DB2",2010-10-31
+"AE_A2","ZEITRAUM","NUMBER","AETA2.DATZRZE, AETA2X.DATZRZE","Original DATZRE",,,"SQLLOADER","DB2",2010-10-31
+"AE_A2","INDIKATOR_TYP","VARCHAR2(1)","DUMMY.DUMMY_FELD_C1",,,,"SQLLOADER","DB2",2010-10-31
+,,,,"AETTEAM",,,,,
+"AE_TEAM","VON_DAT","DATE","AETTEAM.AKTUELLV","Gültig Von",,,"SQLLOADER","DB2",2010-06-14
+"AE_TEAM","BIS_DAT","DATE","AETTEAM.AKTUELLB","Gültig Bis",,,"SQLLOADER","DB2",2010-06-14
+"AE_TEAM","BEREICH",,"AETTEAM.BER","Bereich",,,"SQLLOADER","DB2",2010-06-14
+"AE_TEAM","FINANZAMT_NR",,"AETTEAM.FANR","Finanzamtsnummer",,,"SQLLOADER","DB2",2010-06-14
+"AE_TEAM","TEAM",,"AETTEAM.TEAM","Team",,,"SQLLOADER","DB2",2010-06-14
+,,,,"AETEZE",,,,,
+"AE_EZE","VORGANGS_ID",,"AETEZE.VID","Identifikationsnummer",,,"SQLLOADER","DB2",2010-09-21
+"AE_EZE","ZAHLUNGSERLEICHTERUNGSART",,"AETEZE.ART","Art der Zahlungserleichterung:
+ABW Abweisung eines ZE-Ansuchens (FNR 520)
+RAT Raten (FNR 502); Ratenbewilligung mit gleich hohen bzw. nicht mehr als 3 ungleich hohen Raten (FNR 501) oder mit unterschiedlich hohen Raten (FNR 503)
+STU Stundung des gesamten Rückstandes (FNR 511)
+ZE Anmerkung eines ZE-Gesamtansuchens (FNR 500)
+ZEG Anmerkung eines gezielten ZE-Ansuchens (FNR 500)",,"ZAHLUNGSERLEICHTERUNG","SQLLOADER","DB2",2010-09-21
+"AE_EZE","ERLEDIGUNGSART",,"AETEZE.ERLART","Erledigungsart:
+10 .. Erstbescheid Stundung
+11 ... Berufungsvorentscheidung Stundung
+12 ... händischer Bescheid bzw. Berufungsentscheidung Stundung
+20 ... Erstbescheid Rate
+21 ... Berufungsvorentscheidung Rate
+22 ... händischer Bescheid bzw. Berufungsentscheidung Rate
+30 ... Erstbescheid Abweisung
+31 ... Berufungsvorentscheidung Abweisung
+32 ... händischer Bescheid bzw. Berufungsentscheidung Abweisung
+40 ... Zurücknahme
+50 ... Storno
+51 ... Storno Fehlercode
+60 ... ZE-Ansuchen bearbeitet",,"EZE_ERLEDIGUNGSART","SQLLOADER","DB2",2010-09-21
+"AE_EZE","STELLE",,"AETEZE.STELLE","Ausfertigende Stelle",,,"SQLLOADER","DB2",2010-09-21
+"AE_EZE","VERSENDUNGSART",,"AETEZE.VERS","Art der Versendung:
+A ... RsA -Brief
+B ... RsB - Brief
+N ... Normalkouvert
+J ... mit Anrechung der sonstigen Gutschrift bei ZE-Erledigung",,"VERSENDUNGSART","SQLLOADER","DB2",2010-09-21
+"AE_EZE","BESCHEID_DAT","DATE","AETEZE.DATBESCH","Datum des angefochtenen Bescheides",,,"SQLLOADER","DB2",2010-09-21
+"AE_EZE","BESCHEIDART",,"AETEZE.ARTBESCH","Art des Bescheides
+A ... automatisch
+H ... händisch
+W ... Wiederaufleben",,"EZE_BESCHEIDART","SQLLOADER","DB2",2010-09-21
+"AE_EZE","ANRECHUNG_GUTSCHRIFTEN",,"AETEZE.GUTAN","Anrechnung von sonstigen Gutschriften",,,"SQLLOADER","DB2",2010-09-21
+"AE_EZE","VORAUSZAHLUNG",,"AETEZE.VZ","Vorauszahlung (Bei Ratenbewilligung als Stundung = 1 Rate) Wertevorrat J / N",,,"SQLLOADER","DB2",2010-09-21
+"AE_EZE","BEGINN_DAT","DATE","AETEZE.DATZEBEG","Datum des ZE-Beginns",,,"SQLLOADER","DB2",2010-09-21
+"AE_EZE","END_DAT","DATE","AETEZE.DATZEEND","Datum des ZE-Endes",,,"SQLLOADER","DB2",2010-09-21
+"AE_EZE","ANZ_RATEN",,"AETEZE.ANZR","Anzahl der Raten",,,"SQLLOADER","DB2",2010-09-21
+"AE_EZE","BETRAG_ANZAHLUNG",,"AETEZE.BETRA","Betrag der Anzahlung",,,"SQLLOADER","DB2",2010-09-21
+"AE_EZE","BETRAG_RATEN",,"AETEZE.BETRR","Betrag der Rate(n)",,,"SQLLOADER","DB2",2010-09-21
+"AE_EZE","BETRAG_LETZTE_RATE",,"AETEZE.BETRE","Betrag der letzten Rate",,,"SQLLOADER","DB2",2010-09-21
+"AE_EZE","VON_TS","TIMESTAMP","AETEZE.TS","Zeitmarke",,,"SQLLOADER","DB2",2010-09-21
+"AE_EZE","MITERLEDIGT_VORGANG_ID",,"AETEZE.VIDE","Vorgangs-Identifikationsnummer des miterledigten Vorganges",,,"SQLLOADER","DB2",2010-09-21
+"AE_EZE","MITERLEDIGT_SUB_NR",,"AETEZE.SUBNRE","Subnummer des miterledigten geteilten Beleges",,,"SQLLOADER","DB2",2010-09-21
+"AE_EZE","MITERLEDIGT_ANTRAGSART",,"AETEZE.ARTE","Art des miterledigten Vorganges",,,"SQLLOADER","DB2",2010-09-21
+"AE_EZE","INDIKATOR_TYP","VARCHAR2(1)","DUMMY.DUMMY_FELD_C1",,,,"SQLLOADER","DB2",2010-09-21
+,,,,"AETDIBPK / AETDIAZ / AETDIAN: Rückvergütungen an Diplomaten",,,,,
+"AE_DIPL_RUECKVERG","BPK_SA",,"AETDIBPK.BPK","enhält die BPK nummer bei natürlichen Personen",,,"SQLLOADER","DB2",2013-07-21
+"AE_DIPL_RUECKVERG","KUR",,"AETDIBPK.BPK","ART=KUR",,,"SQLLOADER","DB2",2013-07-21
+"AE_DIPL_RUECKVERG","ERGAENZUNGSREGISTER_NR",,"AETDIBPK.BPK","bei Botschaften und Organisationen (ART='ERGNR')",,,"SQLLOADER","DB2",2013-07-21
+"AE_DIPL_RUECKVERG","LEISTUNGSBEZEICHNUNG",,"AETDIAZ.ART","Umsatzsteuerrückvergütung(=UST) oder
+ Energieabgabenrückvergütung(=EAV) ",,,"SQLLOADER","DB2",2013-07-21
+"AE_DIPL_RUECKVERG","AUSZAHLUNG_DAT","DATE","AETDIAN.DATERL","bei Botschaften und Organisationen (ART='ERGNR')",,,"SQLLOADER","DB2",2013-07-21
+"AE_DIPL_RUECKVERG","LEISTUNGSBETRAG",,"AETDIAZ.BETRAUS","Betrag der Leistung",,,"SQLLOADER","DB2",2013-07-21
+"AE_DIPL_RUECKVERG","ZR_DAT",,"AETDIAN.DATZR","Leistungszeitraum",,,"SQLLOADER","DB2",2013-07-21
+,,,,"AETAE - Aussetzungen",,,,,
+"AE_AETAE","FINANZAMT_NR",,"AETAE.FANR","Finanzamtsnummer",,,"SQLLOADER","DB2",9999-12-31
+"AE_AETAE","STEUER_NR",,"AETAE.STNR","Steuernummer",,,"SQLLOADER","DB2",9999-12-31
+"AE_AETAE","AUSSETZUNGSART",,"AETAE.ARTAUS","Art der Aussetzung
+1 = Aussetzung der Einhebung (AEH) ===> GFC 83, 84
+2 = Aussetzung der Einbringung (AEB) ===> GFC 93, 96
+3 = Löschung (LOE) ===> GFC 91, 94
+4 = Nachsicht (NA) ===> GFC 92, 95
+5 = AE-Antrag ===> GFC 25",,,"SQLLOADER","DB2",9999-12-31
+"AE_AETAE","ZEITRAUM",,"AETAE.DATZR","Zeitraum",,,"SQLLOADER","DB2",9999-12-31
+"AE_AETAE","ABGABENART",,"AETAE.AA","Abgabenart",,,"SQLLOADER","DB2",9999-12-31
+"AE_AETAE","FAELLIGKEIT_DAT","DATE","AETAE.DATFAELL","Fälligkeitstag",,,"SQLLOADER","DB2",9999-12-31
+"AE_AETAE","BETRAG",,"AETAE.BETRAG","Betrag",,,"SQLLOADER","DB2",9999-12-31
+"AE_AETAE","BUCHUNG_DAT","DATE","AETAE.DATBUCH","Buchungstag",,,"SQLLOADER","DB2",9999-12-31
+"AE_AETAE","NUMERATOR",,"AETAE.NUM","Numerator",,,"SQLLOADER","DB2",9999-12-31
+"AE_AETAE","FLAG_TYP",,"AETAE.TYP","Typ",,,"SQLLOADER","DB2",9999-12-31
