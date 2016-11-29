@@ -37,11 +37,12 @@ type DateTimeCheckResponse struct {
 	ContainsDT bool
 	MimeType   *string
 	CheckType  *string
+	Read       int
 	Occurence  []Occurence
 }
 
-var metadatadts = regexp.MustCompile("(?i)datum|zeit|date|time|datetime|timestamp")
-var dataitemdt = regexp.MustCompile(`(?i)\d{1,2}\.\d{1,2}\.\d{4}|\d{2}:\d{2}|jän|jan|feb|märz|apr|mai|jun|jul|aug|sep|okt|nov|dez`)
+var metadatadts = regexp.MustCompile("(?i)datum|zeit|datetime|timestamp")
+var dataitemdt = regexp.MustCompile(`(?i)\d{1,2}\.\d{1,2}\.\d{4}|\d{4}-\d{1,2}|\d{2}:\d{2}|jän|jan|feb|märz|apr|mai|jun|jul|aug|sep|okt|nov|dez`)
 
 func (d *DateTimeChecker) ContainsDateTimeBytes(b []byte, mt *string) (*DateTimeCheckResponse, error) {
 	var dt string
@@ -85,7 +86,8 @@ func (d *DateTimeChecker) ContainsDateTimeBytes(b []byte, mt *string) (*DateTime
 
 		var re *regexp.Regexp
 
-		for i := 0; ; i++ {
+		var i int
+		for ; ; i++ {
 			record, err := csvreader.Read()
 			if err == io.EOF {
 				break
@@ -105,6 +107,7 @@ func (d *DateTimeChecker) ContainsDateTimeBytes(b []byte, mt *string) (*DateTime
 				}
 			}
 		}
+		oc.Read = i
 
 	}
 

@@ -28,7 +28,15 @@
 		},
 		{
 			"ImportPath": "github.com/the42/datetimecheck",
-			"Rev": "3da9639e719d8d1ddc70ec89a134c21f7287b6ee"
+			"Rev": "4034fba7445ded82cbf929db0cd14b25d1973bc7"
+		},
+		{
+			"ImportPath": "github.com/the42/datetimecheck/vendor/github.com/rakyll/magicmime",
+			"Rev": "4034fba7445ded82cbf929db0cd14b25d1973bc7"
+		},
+		{
+			"ImportPath": "github.com/the42/datetimecheck/vendor/github.com/the42/csvprober",
+			"Rev": "4034fba7445ded82cbf929db0cd14b25d1973bc7"
 		}
 	]
 }
