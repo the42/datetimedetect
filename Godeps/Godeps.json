@@ -1,0 +1,15 @@
+{
+	"ImportPath": "github.com/the42/datetimecheck",
+	"GoVersion": "go1.7",
+	"GodepVersion": "v75",
+	"Deps": [
+		{
+			"ImportPath": "github.com/rakyll/magicmime",
+			"Rev": "2b8b8f91948c4307f40a8f86ac6f3b26e27b7389"
+		},
+		{
+			"ImportPath": "github.com/the42/csvprober",
+			"Rev": "12305dc7b35755a6a539af199b2b438dd9897c66"
+		}
+	]
+}

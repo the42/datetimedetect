@@ -1,0 +1,34 @@
+{
+	"ImportPath": "github.com/the42/datetimecheck/cmd/dtcheckservice",
+	"GoVersion": "go1.7",
+	"GodepVersion": "v75",
+	"Deps": [
+		{
+			"ImportPath": "github.com/emicklei/go-restful",
+			"Comment": "v1.2-83-gc57f862",
+			"Rev": "c57f862b383b4330671d6b4bf932386c35bd57f8"
+		},
+		{
+			"ImportPath": "github.com/emicklei/go-restful/log",
+			"Comment": "v1.2-83-gc57f862",
+			"Rev": "c57f862b383b4330671d6b4bf932386c35bd57f8"
+		},
+		{
+			"ImportPath": "github.com/emicklei/go-restful/swagger",
+			"Comment": "v1.2-83-gc57f862",
+			"Rev": "c57f862b383b4330671d6b4bf932386c35bd57f8"
+		},
+		{
+			"ImportPath": "github.com/rakyll/magicmime",
+			"Rev": "2b8b8f91948c4307f40a8f86ac6f3b26e27b7389"
+		},
+		{
+			"ImportPath": "github.com/the42/csvprober",
+			"Rev": "12305dc7b35755a6a539af199b2b438dd9897c66"
+		},
+		{
+			"ImportPath": "github.com/the42/datetimecheck",
+			"Rev": "3da9639e719d8d1ddc70ec89a134c21f7287b6ee"
+		}
+	]
+}
