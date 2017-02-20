@@ -41,8 +41,8 @@ type DateTimeCheckResponse struct {
 	Occurence  []Occurence
 }
 
-var metadatadts = regexp.MustCompile("(?i)datum|zeit|datetime|timestamp")
-var dataitemdt = regexp.MustCompile(`(?i)\d{1,2}\.\d{1,2}\.\d{4}|\d{4}-\d{1,2}|\d{2}:\d{2}|jän|jan|feb|märz|apr|mai|jun|jul|aug|sep|okt|nov|dez`)
+var metadatadts = regexp.MustCompile("(?i)jahr|monat|tag|datum|zeit|datetime|timestamp")
+var dataitemdt = regexp.MustCompile(`(?i)\d{1,2}\.\d{1,2}\.\d{4}|\d{4}-\d{1,2}|\d{2}:\d{2}|jän|jan|feb|märz|apr|mai|jun|jul|aug|sep|okt|nov|dez|19\d\d|20\d\d`)
 
 func (d *DateTimeChecker) ContainsDateTimeBytes(b []byte, mt *string) (*DateTimeCheckResponse, error) {
 	var dt string
