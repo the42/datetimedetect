@@ -1,0 +1,506 @@
+﻿GDO_GID;BEREICH;KATEGORIE;BEZEICHNUNG;OEFFN_ZEIT;ADRESSE;TELEFON;FAX;EMAIL;WEBSPACE;ZUHANDEN;KONTAKT;KOSTEN;KURSE;BEMERKUNG;STR_NR;HNR;HNR_ALPHA;SDO_X1;SDO_Y1;USR_ID;GEOMETRY1;LON;LAT;sea_level
+1;Jugendkultur;Kultur & Zentren;Toi-Haus, Theater am Mirabellplatz;MO-DO 10.00-16.00 sowie 3 h vor Vorstellungsbeginn, FR 10:00-14:00;Franz-Josef-Straße 4;874 439;874 439 - 4;office@toihaus.at;http://www.toihaus.at;;Myrto Dimitriadou, Helga Gruber, Andrea Folie, Sandra Schwaighofer, Ines Pariente, Johann Ramböck, Robert Schmidjell;http://toihaus.at/karten.html;Theater für Kinder und Erwachsene;;926;4;;-21698,69;296516,6;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21698.69,296516.6));13,0430731;47,8068292;431
+2;Jugendkultur;Kultur & Zentren;Salzburger Volks.kultur;;Zugallistraße 12 (Petersbrunnhof);8042 3063;80 42 26 12;office@salzburgervolkskultur.at;http://www.salzburgervolkskultur.at;;Vorsitzender: RR Adolf Freudl ;;Servicestelle für alle volkskulturell Interessierten im Land Salzburg;;230;14;;-21170,48;293271,2;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21170.48,293271.2));13,050776;47,7928828;423
+3;Jugendkultur;Kultur & Zentren;Bildungshaus St.Virgil;Mo-Fr 8-20 Uhr Sa 8-12 Uhr;Ernst-Grein-Straße 14;65 901-0;65 901-509;office@virgil.at;http://www.virgil.at;;"Kan.Rektor Dr.Hans-Walter Vavrovsky; Dir.Mag.Peter Braun; Vw: Ing. Reinhard Weinmüller";;Bildung (Lernen, gestalten, leben), Konferenz (inspirieren, tagen, entwickeln), Hotel;;148;14;;-18929,43;295105,1;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-18929.43,295105.1));13,080515;47,7936949;430
+4;Jugendkultur;Kultur & Zentren;Salzburger Bildungswerk / SBW;Mo-Do 8:00-16:00 Uhr Fr 8-12 Uhr;Strubergasse 18/3;872 691 - 0;872 691 - 3;office@sbw.salzburg.at;http://www.salzburgerbildungswerk.at;;"Dir Dr.Günther Signitzer -14;";;Eltern-,Frauen-,Politische-,Seniorenbildung, internationale Solidatität und Gemeindeentwicklung;;332;2;;-21253,08;295835,3;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21253.08,295835.3));;;
+5;Jugendkultur;Literatur & Neue Medien;Radiofabrik;;Ulrike-Gschwandtner-Straße 5;0662 84 29 61;84 29 61-18;office@radiofabrik.at;http://www.radiofabrik.at/;;Oliver Baumann (Vorsitzender) ;;Möglichkeit für Jugendliche eigene Radiosendungen zu gestalten;;361;16;;-20729,28;295097,3;MD06025;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-20729.28,295097.3));13,0560339;47,7941269;424
+6;girls and boys;problems?;Psychiatrische Ambulanz der Christian-Doppler-Klinik;jederzeit;Ignaz-Harrer-Straße 79;0662 4483 4322 oder 4515 oder 4511;4483-4504;l.thun-hohenstein@salk.at;http://www.salk.at/2847.html;;Vorstand: Univ.-Prof. Dr. Leonhard Thun-Hohenstein;;Krisenstelle für Kinder und Jugendliche in schwierigen Lebenssituationen;;326;79;;-23300,06;297172,2;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-23300.06,297172.2));13,0215246;47,8128543;419
+7;Beratung & Service;infopool;Jugend- und Lehrlingsschutz-stelle der Arbeiterkammer;Mo - Fr 8 - 12 Uhr;Markus-Sittikus-Straße 10;0662 86 87 319;0662 87 62 58;;;;;;Informationen über: Lehrevertrag, Rechte und Pflichten, Ausbildungsvorschriften, Arbeitszeit, Überstunden, Berufsschule, Urlaub, Auflösung des Lehrverhältnisses;;495;10;;-21889,72;296607,5;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21889.72,296607.5));13,0405103;47,8076608;427
+8;Treffpunkte;sport & fun;Freibad Leopoldskron;Mai- September 9-19 Uhr (20 Uhr);Leopoldskronstraße 50;0662/829265;0662/829265-17;erholungsbetriebe@stadt-salzburg.at;http://www.salzburg.info/de/service/infos/freibad-leopoldskron_az-261012;Hr. Rettenbacher;Verwaltung 0662/623411;"Eintritt: 
+Erwachsene: EUR 3,50; Jugentliche: EUR 2,00 (bis 18 Jahre); Kinder: EUR 1,50 (bis 15 Jahre)";"zusätzliche Angebote; 10 m Sprungturm, Tischtennis, Billard, Beachvolleyball, Fußball, Tischfußball, Minigolf und Gastronomie";;461;50;;-22285;294681,3;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-22285,294681.3));13,0362474;47,7893759;431
+9;Treffpunkte;sport & fun;Freibad Volksgarten;Mai- September 9-19 Uhr (20 Uhr);Hermann-Bahr-Promenade 2;0662/623183;0662/623411-21;erholungsbetriebe@stadt-salzburg.at;;Hr. Rath;Verwaltung 0662/623411;"Eintritt: 
+Erwachsene: EUR 3,50; Jugentliche: EUR 2,00 (bis 18 Jahre); Kinder: EUR 1,50 (bis 15 Jahre)";"zusätzliche Angebote; Tischtennis, Volleyball, Tischfußball, Federball und Gastronomie";;297;2;;-20341,01;295562,9;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-20341.01,295562.9));13,0609146;47,7984162;423
+10;girls and boys;problems?;Selbsthilfe Salzburg;nach Vereinbarung;Engelbert-Weiß-Weg 10;8889-1800;8889-1804;selbsthilfe@salzburg.co.at;http://www.selbsthilfe-salzburg.at;;Sabine Eberhardt, Eveline Armstorfer, GF Sabine Geistlinger, Schwarzach: Martha Köhlbichler, Silvia Rieser;;Selbsthilfegruppe für Mädchen u. junge Frauen, die HIV positiv sind;;159;19;;-21673,35;296671,8;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21673.35,296671.8));13,0455112;47,8152938;423
+11;Arbeit & Ausbildung;Beratung & Hilfe;Verein Einstieg;;Gneiser Straße 20;0662 82 00 15;;einstieg@salzburg.co.at;http://www.einstieg.or.at/;;Geschäftsleitung: Dr. Hartwig Zauner;;JOKER: unterstützende Lernbetreuung für Berufsschüler, JOBSTART: Vorbereitung auf den externen Hauptschulabschluß;Zuweisung über das AMS;230;20;;-21041,2;293144,3;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21041.2,293144.3));13,0517623;47,776511;430
+12;Beratung & Service;problems?;Streetwork Salzburg;Mo, Mi 13 - 19, Di, Do 10 - 15, Fr 10 - 14 Uhr;Plainstraße 4;87 33 73;0662 80 72 24 40;bivak.mobil@stadt-salzburg.co.at;http://www.salzburg.gv.at/streetwork;;Einrichtungsleitung: Mag. Adelheid Moser;;aufsuchende, niederschwellige Sozialarbeit an den Treffpunkten von Jugendlichen;;175;4;A;-21453,53;295345,1;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21453.53,295345.1));13,0406377;47,8095597;424
+13;Beratung & Service;problems?;Sexualberatungs-stelle;Anmeldungs- und Öffnungszeiten: Di, Mi, Do, Fr 11 - 13 Uhr und nach Vereinbarung;Platzl 2;0662 / 870870;0662 87 69 99;mail@sexualberatung-salzburg.at;http://www.sexualberatung-salzburg.at/;;MMag. Dorothea Gössl, Mag. Ulrike Hutter, Mag. Thomas Radauer, Dr. Christian Schacht, Mag. Michael Schreckeis ;;Sexualaufklärung- und Beratung;;63;10;;-21718,83;296604,2;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21718.83,296604.2));13,044991;47,80183388;431
+14;Beratung & Service;problems?;VEBBAS - Verein zur Beratung und Betreuung von Ausländern;Mo-Do 8:00-16:30, Fr: 8:00-12:00;Linzer Bundesstraße 12/1;0662 87 032, 0662 87 32 48;87 32 48 Dw. 7;office(at)vebbas.at;http://www.vebbas.at/home.html;;Geschäftsleitung: Dr. Margit Öppmayr ;;arbeitsrechtliche Beratung, Beratung in fremdenpolizeilichen Angelegenheiten;;147;13;A;-21866,05;296715,6;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21866.05,296715.6));13,0649892;47,8098557;435
+15;Beratung & Service;infopool;Friedensbüro Salzburg;Mo und Mi 9:00-11:00, Di und Do 15:00-18:00;Franz-Josef-Straße 3;+43 (0) 662/ 87 39 31;+43 (0) 662/ 87 39 31;friedensbuero@salzburg.co.at;office@friedensbuero.at;;Ingo Bieringer;;Workshops zur Konfliktlösung u. Gewaltprävention;;759;47;;-21236,39;295882,3;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21236.39,295882.3));13,0422628;47,8069219;431
+16;girls only;problems?;Familienberatungs-stelle des Landes an der gynäkologischen Ambulanz;MI 16:00 - 19:00 Uhr;Müllner Hauptstraße 48;4482-2508;;;http://www.familienberatung.gv.at/beratungsstellen/information/einrichtung/5020-Salzburg-Familienberatung-am-Landeskrankenhaus-Gynaekologie-Ambulanz/;;;;Familienplanung, Empfängnisregelung und Schwangerschaftskonfliktberatung (inkl. ärztlicher Untersuchung);;973;48;;-22598,31;296556,8;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-22598.31,296556.8));13,0309639;47,8071049;428
+17;girls only;Mädchentreff;Verein VIELE;1 x im Monat am Samstag von 14.00 - 16.0 Uhr;Rainerstraße 27;0662 87 02 11;88 63 99;office[at]verein-viele.at;http://www.verein-viele.at/;;;kostenlos;"Die Gruppe ist für Mädchen aus verschiedenen Herkunftsländern offen; div. Freizeitangebot für Mädchen";;926;17;A;-21474,58;296579,7;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21474.58,296579.7));;;
+18;Treffpunkte;Jugendzentrum;Internationales Jugendzentrum;Mo-Fr 13:00-18:00, Fr 19:00-22:00;Gabelsbergerstraße 17;0662 88 34 07;;;;;;;Berufsberatung, Lern-Nachhilfe, kreative Workshops, Videos, sportliche Aktivitäten, Disco, JUZ-Cafè, Ausflüge;;192;17;;-21258,85;296756,5;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21258.85,296756.5));13,0490163;47,8092592;431
+19;Treffpunkte;Jugendzentrum;Jugendzentrum IGLU;Mo & Fr 13:00-17:00, Di & Do 12:00-17:00;Haydnstraße 4;0662 87 73 86;0662 87 73 86;juz-iglu@kirchen.net;http://www.kirchen.net/iglu/page.asp?id=805;;;;Lern-, Sport-, Tanz-, Theater-, Mächen-, Burschen- und internationale Gruppe, offener Nachmittagsbetrieb, Kreativworkshops, Outdoor-Projekte;;285;4;;-21471,6;296451,4;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21471.6,296451.4));13,0460536;47,8063268;431
+20;Treffpunkte;Jugendzentrum;"Kommunikations-zentrum Berger-Sandhofer-Siedlung ""KOMM""";Kindertreff: Mi 13:30 - 16:30 Uhr, Fr, Sa 13:30 - 17:30 Uhr Jugendtreff: Mi 13:30 - 19 Uhr, Fr 14:30 - 20 Uhr, Sa 14:30 - 19 Uhr, Beratung: Do 9:30 - 12:30 Uhr, Spielothek: Do 15:30 - 18:30 Uhr;Kendlerstraße 35;0662 82 46 56;663 82 46 56;rmiksch@spektrum.at;http://www.spektrum.at/einrichtung/bergersandhof/;;Miksch Robert;;Disco, Siedlungsfeste, Jugendcafè, Schulprojekte, Secondhandshop, Skate-Action, Mädchentreff, Big Cinema;;401;35;;-23462,34;294424;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-23462.34,294424));13,0196236;47,7879104;429
+21;Treffpunkte;Jugendzentrum;Kinder- und Jugendzentrum Lehen;KiZ: Mi, Do 15:30 - 18:30 Uhr, Fr, Sa 14:30 - 18:30 Uhr, JUZ: Mi, Do 16:30 - 20 Uhr, Fr, Sa 14:30 - 19:30 Uhr;Schumacherstraße 20;0662 43 42 16 - 18;0043 (0)662-43 42 16-20;mhauser@spektrum.at;http://www.spektrum.at/einrichtung/lehen/;;Mag. Martina Hauser;;sozialpädagogische Beratung, Internetcafè, Abenteuerpädagogik, Schulhofumgestaltung, Videoproduktion, Musikproberaum, Fitnessraum, Werkstatt, Disco;;740;20;;-22945,9;297434;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-22945.9,297434));13,0262446;47,8150043;418
+22;Treffpunkte;Jugendzentrum;YOCO ;Di und Do 13 - 18 Uhr, Mi, Do, Fr 18 - 22 Uhr;Gstättengasse 16;0662 84 36 53;;stuz@kirchen.net;;;;;Cafè, Vernissagen, Bandauftritte, verschiedene Workshops, Firmunterricht, Tischfussball-, Dart- und Billardturniere;;255;16;;-22032,95;295971,8;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-22032.95,295971.8));13,0385617;47,8019906;447
+23;girls only;Jugendzentrum;Jugendzentrum Taxham;Di-Sa 15:00-19:00;Kleßheimer Allee 87;0662 43 79 25;0662 43 62 77;;http://www.spektrum.at/proj4.html;;Mag. Karin Hauser;;Mädchenpower und Girlsband, Mädchencafé;;408;87;;-24431,09;296984,7;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-24431.09,296984.7));13,0064129;47,8108838;427
+24;Treffpunkte;Jugendzentrum;"Haus der Jugend ""Insel""";"nach der Schule bis 17.30 Uhr; Ferien: 7.30 - 17.00 Uhr";Franz-Hinterholzer-Kai 8;0662 62 01 35;+43 662 623 570;direktion@inselsalzburg.at;http://www.inselsalzburg.at;;;"EUR 141,--/monatl. inkl. Essen, Shaolin-, Judo- und Kletterkurs; in den Ferien EUR 76,--/Woche inkl. Essen und aller Programme";"Jugendtreff, Skatepark, Trampolinanlage, Streetballanlage, Selbstverteidigung; Freie Plätze: nach Rücksprache";"Zusatzinformation: Hauseigene Küche, 1 Woche Semesterferienprogramm, Sommerferienprogramm in den ersten 5 Wochen der Ferien für Kinder und Jugendliche von 5 - 15 Jahren; 7 Integrationsplätze";188;8;;-20259,4;294922,9;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-20259.4,294922.9));13,0623466;47,7925319;424
+25;girls only;Jugendzentrum;Kinder- und Jugendhaus Liefering;Di 14.00-18.00 Uhr, Mi & Do 14:00-21:00, Fr & Sa 14:00-21:30, So 15:00-20:00;Laufenstraße 43;0662 43 87 75;0662 43 42 99;juki@salzburg.at;http://www.liefering.at/kinder-und-jugendhaus-liefering/;;Petra Schörg und Mirjam Schneeberger;;Freizeitangebote für Mädchen;;451;43;;-23131,73;298214,5;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-23131.73,298214.5));13,0234721;47,822001;416
+26;girls only;sport & fun;Doris Hintseiner (Tanzstudio Nadea);nach Vereinbarung;Glockengasse 4c;0699 11120777 oder 06212 30196;;dorinna@utanet.at;http://www.movingart.at/;;Doris Hintsteiner;;Mädchenpower (Tanzchoreographie), Tanztheaterwerkstatt, New Dance Improvisation;;227;4;C;-21102,89;296254,3;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21102.89,296254.3));13,05080697;47,80458972;469
+27;girls only;Mädchentreff;Stadtteilprojekt Keck;1 x im Montag am Samstag von 14.00 - 16.0 Uhr;Fürbergstrasse 30/7;0662 455 488 - 16;0043 662 455 488 13;projekt.keck@sbg.kinderfreunde.at;http://sbg.kinderfreunde.at/Bundeslaender/Salzburg/Unsere-Angebote/Mobile-Animation/Soziokulturelle-Stadtteilarbeit/KECK/KECK-allgemein;;Lisa Kranzler u. Daniela Tauderer;;Div. Freizeitangebot für Mädchen, Hütte- u. Campingwochenende, Selbstverteidigungskurse, Workshops;;446;3;B;-21688,39;297768,9;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21688.39,297768.9));13,0660034;47,807128;445
+28;girls only;Mädchentreff;Abenteuerspielplatz Taxham/Verein Spektrum;jeden 2. Mittwoch von 15.00 - 18.00 Uhr;Kleßheimer Allee 87;0662 43 79 25;0662 43 62 77;npiljic@spektrum.at;http://www.spektrum.at/proj4.html;;Nada Piljic;;Mädchentreff für 10 bis 16 Jährige;;408;87;;-24431,09;296974,7;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-24431.09,296974.7));13,0064129;47,8108838;427
+29;girls only;Mädchen ;Frauenbüro der Stadt Salzburg;nach Vereinbarung;Mirabellplatz 4;0662 8072 2043;0662 8072 2066;andrea.kircher@stadt-salzburg.at oder frauenbuero@stadt-salzburg.at;http://www.stadt-salzburg.at/frauen;;Andrea Kircher;;"Feministische Selbstverteidigungskurse ""drehungen"" für Mädchen und junge Frauen";;546;4;;-21744,9;296384,2;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21744.9,296384.2));13,0416993;47,8054254;426
+30;girls only;sport & fun;Ursula Lindenbauer u. Jutta Onrednig;nach Vereinbarung in der Turnhalle Maxglan;Maxglaner Hauptstraße 22;0662 83 19 65 oder 0676 415 4528 oder 0662 44 04 56;;lindenbauer.photodesign.@utanet.at;http://members.aon.at/turnverein-maxglan.at/unsere_trainerinnen.htm;;Ursula Lindenbauer und Jutta Onrednig;;Ganzjähriges Showdancetraining für Mädchen;;501;22;;-23243,46;295409,3;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-23243.46,295409.3));13,0223615;47,7967912;429
+31;Beratung & Service;problems?;Krisenstelle für Jugendliche;rund um die Uhr;Werkstättenstraße 4;0662 45 32 66;;;http://www.salzburg.gv.at/kinder_krisenstelle;;;;Krisentelefon, Krisenintervention im Rahmen ambulanter und stationärer Betreuung;;844;4;;-21537,96;297968,5;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21537.96,297968.5));13,0450634;47,8199286;426
+32;girls only;problems?;ISIS - Gesundheit und Therapie für Frauen;Mo, Di, Do 10 - 12 Uhr, Mi 15 - 17 Uhr;Alpenstraße 48/2. Stock (Zentrum Herrnau);0662 44 22 55;442255 - 50;office@frauengesundheitszentrum-isis.at;http://www.frauengesundheitszentrum-isis.at/;;;;Beratung z. B. bei Essstörungen, Aufklärung über verschiedene Verhütungsmethoden, Therapie, spezielle Angebote z. B. Selbstverteidigung für Mädchen, Kurse, Gruppen;;855;12;;-22716,84;296083,4;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-22716.84,296083.4));13,066282;47,7867254;425
+33;Beratung & Service;problems?;Exit 7, niederschwellige Anlaufstelle;täglich von 18:00 - 10:00 Uhr;Siezenheimer Straße 7;0662 43 97 28;43 57 84;exit7@salzburg-caritas.at;http://www.salzburg.gv.at/jugendnotschlafstelle;;;;Jugendnotschlafstelle;;695;7;;-23638,17;296225;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-23638.17,296225));13,0170666;47,80442073;425
+34;Beratung & Service;problems?;Kinder- und Jugend-anwaltschaft (kija);Mo 8 - 12 und 15 - 19 Uhr, Di - Do 14 - 16 Uhr, Fr 10 - 12 Uhr und nach Vereinbarung;Gstättengasse 10;0662 43 05 50;;kija(at)salzburg.gv.at;http://www.kija-sbg.at/home/kija-sbg.html;;;;Beratung und Vermittlung, pareiliche Unterstützung bei der Durchsetzung von Rechten;;771;4;;-22280,13;296790,8;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-22280.13,296790.8));13,0390816;47,8008611;450
+35;Beratung & Service;problems?;Jugendberatungs-stelle BIVAK;Mo und Mi 10 - 19 Uhr, Di und Do 10 - 16 Uhr, Fr 10 - 14 Uhr;Plainstraße 4;0662/873 373;0662 87 31 20;bivak.mobil@stadt-salzburg.at;https://www.stadt-salzburg.at/internet/leben_in_salzburg/kinder_jugend/kinder_jugendhilfe/bivak_mobil/jugendberatungsstelle_bivak_mobil_227566.htm;;;;Beratung, Information z. B. über Behörden und soziale Einrichtungen in Salzburg, Vertretung z. B. vor Gericht, bei Ämtern, Arbeit z. B. Begleitung bei Vorstellungsgesprächen, Kommunikation - Jugendcafè;Außenstelle des Stadtjugendamtes;475;72;;-21263,46;296237,3;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21263.46,296237.3));13,0406377;47,8095597;424
+36;Beratung & Service;problems?;Aidshilfe Salzburg;"Mo bis Fr von 10 bis 12 Uhr; Mo, Mi, Do von 17 bis 19 Uhr";Linzer Bundesstrasse 10;0662 88 14 88;0662 88 14 88;office@aidshilfen.at ;http://www.aidshilfe-salzburg.at/;;;;Info-Versand, Multiplikatorenschulungen, Vorträge und Workshops, Exkursionen, HIF-Test;;192;20;;-21230,74;296724;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21230.74,296724));13,064346;47,8097088;435
+37;Jugendkultur;Kultur & Zentren;Schule der Phantasie;;Sinnhubstrasse 8 /A1;+43 / 662 / 82 74 11;;info@schule-der-phantasie-salzburg.net;http://www.schule-der-phantasie-salzburg.net/index.html;;Mag. Elisabeth Auer;;div. Kurse zur Förderung der Phantasie;;224;4;;-24631,19;295688,5;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-24631.19,295688.5));13,0314478;47,7942814;434
+38;Jugendkultur;Literatur & Neue Medien;Das Kino, Salzburger Filmkulturzentrum;14:30 - 21:45;Giselakai 11;0662-87 31 00;0662-88 07 31-20;office@daskino.at;http://www.daskino.at;;Dr. Michael Bilic, Mag. Renate Wurm;;Kino;;221;11;;-21494,42;295875,2;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21494.42,295875.2));13,0457625;47,8012373;435
+39;Jugendkultur;Kultur & Zentren;"Salzburger Spieletage des Vereins ""Care & Fun""";Samstag/Sonntag, 27./28. September 2014;Schrannengasse 16;+43 (0) 662/871909;+43 (0) 662/872616;spieletage@spielzeugschachtel.at;http://www.spielzeugschachtel.at/spieletage.htm;;Adele LIEDL, Harald Brandner;;Tage wo miteinander gespielt wird und andere Sachen bezüglich Spiele stattfinden;;738;16;;-21329,67;296468,1;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21329.67,296468.1));13,047789;47,8063741;433
+40;Arbeit & Ausbildung;Beratung & Hilfe;BIVAK, Jugendberatungsstelle der Stadt Salzburg;Mo & Mi 13:00-19:00, Di & Do 10:00-15-00;Plainstraße 4;0662/873373;;bivak.mobil@stadt-salzburg.at;http://www.stadt-salzburg.at;;Hanni Landauer, mo/mi 10-19, di/do 10-16, fr 10-14;;mobile Jugendberatungsstätte;;475;72;;-21263,46;296227,3;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21263.46,296227.3));13,0406377;47,8095597;424
+41;Beratung & Service;infopool;Landesjugendreferat;;Glockengasse 4;8042 (81) 25 26, 84 92 91 - 0;84 92 91 - 22;;http://www.land-sbg.gv.at;;Mag. Wolfgang Schick, Renate Quehenberger (Theater der Jugend);;;;227;4;;-21079,5;296273,8;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21079.5,296273.8));13,050926;47,8047908;458
+42;Treffpunkte;Jugendorganisation;Österreichische Kinderfreunde, Landesorganisation Salzburg;Mo-Do 8.30-14.00 Uhr und Fr 8.30-13 Uhr;Fürbergstrasse 30/7;455 488;455 488 - 13;office@sbg.kinderfreunde.at;http://www.kinderfreunde.at/sbg/index1.htm;;LV Rudolf Barkmann, LandesGF Thomas Wengler;;;;446;3;B;-21698,39;297768,9;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21698.39,297768.9));13,0660034;47,807128;445
+43;Treffpunkte;Jugendorganisation;Pfadfinder und Pfadfinderinnen Salzburgs;;Fürstenallee 45;0662/823637;0662/823637-16;;http://www.salzburger-pfadfinder.at/home;;Präsident: KEPLINGER Hans-Georg;;;;556;86;;-21018,46;294074,9;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21018.46,294074.9));13,0518855;47,87851784;425
+44;Treffpunkte;Jugendorganisation;Österreichische Naturschutzjugend Salzburg;;Pater-Stefan-Str. 7;84 26 53;;bundesleitung@oenj.at;http://www.oenj.at/;;Dagmar Breschar;;;;976;5;;-21964,99;295932,1;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21964.99,295932.1));13,0779286;47,7336568;427
+45;Treffpunkte;Jugendorganisation;Junge Generation SPÖ;;Paris-Lodron-Straße 21;875125;;;http://jg.spoe.at/;;Raimund Stumper;;;;571;21;;-21196,76;296462,4;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21196.76,296462.4));13,0496364;47,8065258;434
+46;Treffpunkte;Jugendorganisation;Junge SozialdemokratInnen und SozialistInnen Salzburg (JUSOS);;Paris-Lodron-Straße 21;870 900-21;870 900 - 19;wolfgang.gallei@spoe.at;http://www.jusos-salzburg.at/;;LV Wolfgang Gallei (0699) 1044 3934, LSekr Christian Flandera (0699) 1140 1346;;;;571;21;;-21186,76;296462,4;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21186.76,296462.4));13,0496364;47,8065258;434
+47;Treffpunkte;Jugendorganisation;Junge Volkspartei Salzburg (JVP);Mo-Do 8-12 u. 13-17 Uhr Fr 8-14 Uhr;Merianstraße 13;0662.8698-38;0662.8698-39;kontakt@jvp-salzburg.at;http://www.jvp-sbg.com/;;Josef Kraibacher;;;;535;13;;-20977,13;297014,5;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-20977.13,297014.5));13,0525766;47,811282;428
+48;Treffpunkte;Jugendorganisation;Ring freiheitlicher Jugend;;Ginzkeyplatz 10/I/1/3;(0662) 62 81 20;(0662) 62 81 21 33;info@rfj-sbg.at;http://www.rfj-sbg.at/;;Landesobmann: Markus Stainer;;;;570;10;;-21321,85;296707,4;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21321.85,296707.4));13,0706909;47,7729504;429
+49;Treffpunkte;Jugendorganisation;Katholische Jugend Salzburg (KJ);;Kapitelplatz 6/3;80 47 / 540 - 544;;kj@jugend.kirchen.net;http://salzburg.kjweb.at/;;;;;;383;6;;-21425,34;295397,6;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21425.34,295397.6));13,0464717;47,7967602;443
+50;Arbeit & Ausbildung;Vermittlung & Förderung;Arbeitsmarkservice;Mo - Fr 7:30 - 15:30, Kundenverkehr von 7:30 - 12 Uhr;Auerspergstraße 67;0662 88 83;70 90;;http://www.ams-sbg.or.at;;Dr. Wilfried Beer;;Lehrstellenvermittlung, Arbeitsplatzvermittlung, Weiterbildungs- und Kursmaßnahmen, Bewerbungstraining, Abklärung von Versicherungsleistungen;;63;67;;-21135,04;296414,2;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21135.04,296414.2));13,0509419;47,8062505;433
+51;Arbeit & Ausbildung;Vermittlung & Förderung;Berufsinformationszentrum;Mo-Fr 7.30-15.30;Paris Lodron Straße 21;(0662) 8883/DW 4820;(0662) 8883/DW 4890;stadtsalzburg@504.ams.or.at;http://www.ams.at/sbg/berufsinfo-weiterbildung/biz-berufsinfozentren/standorte/biz-salzburg;;;;umfassendes Infomaterial, Interessenstests, Broschüren, Touch-Screen mit offenen Lehrstelle, Stellen- und Ferialjobangebote;;63;50;;-21143,93;296420;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21143.93,296420));13,0496364;47,8065258;434
+52;Beratung & Service;Jugendwohlfahrt;Jugendamt der Stadt Salzburg;Mo 8:30 - 12 Uhr, 13:30 - 17:30 Uhr, Di - Fr 8:30 - 12 Uhr, Beratungszeiten zu den Öffnungszeiten und zu vereinbarten Terminen;Saint-Julien-Straße 20;0662 8072 - 3260;;jugendamt@stadt-salzburg.at;http://www.salzburg.gv.at/jwf_bezirke.htm;;Mag. Adelheid Moser;;Schutz von Jugendlichen vor Gewalt und Missbrauch, Vermittlung von sozialen Diensten, Hilfen zur Erziehung durch ambulante und stationäre Betreuung;;678;20;;-21753,58;296937,7;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21753.58,296937.7));13,0422523;47,8105923;425
+53;Beratung & Service;infopool;Zivildienstberatung der ARGE;Do ab 18 Uhr;Josef Preis Allee 16;0662 84 77 43;;arge-wdv@gmx.net;http://www.verweigert.at/;;;;Rechtsberatung betreffend Zivildienst;;969;6;;-20826,8;294955,2;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-20826.8,294955.2));13,0563425;47,7948669;425
+54;Arbeit & Ausbildung;Beratung & Hilfe;AHA! Bildungs-beratung der Wirtschaftskammer;Mo - Fr 9 - 12 und 13 - 16 Uhr, in den Sommerferien ist am Fr geschlossen;Julius-Raab-Platz 4;+43(0)662-8888 - 276 oder 319;;AHA@sbg.wk.or.at;http://www.aha-bildungsberatung.at/;;;;Infos über Lehrberufe, Schulen, Fachakademien, Studienrichtungen und sonstigen Ausbildungsmöglichkeiten, Berufsinteressenstest, Seminare zu Berufsorientierung und Bewerbungstraining;;63;18;;-21639,79858;296641,9382;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21639.798584,296641.938232));13,0437355;47,8079414;429
+55;Arbeit & Ausbildung;Beratung & Hilfe;Kompass - Mädchenberatung;;Südtiroler Platz 11/1;0662 82 00 15 25, 0664 23 01 13 44;;kompass.stadt@einstieg.or.at;http://kompass.einstieg.or.at/;;Franziska Wührer;;berufsspezifische Mädchenberatung, Hilfe beim Erstellen von Bewerbungsunterlagen, Unterstützung bei der Suche nach Schnupper- und Lehrstellen;Termine nur nach telefonischer Vereinbarung!;821;33;;-20831,83;296937,9;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-20831.83,296937.9));13,0441856;47,8143827;423
+56;Beratung & Service;infopool;Salzburger Landesjugendbeirat;;Anton-Neumayr-Platz 3;+43 (0)662/849291-71;;info@akzente.net;http://www.akzente.net;;Mag. Wolfgang Schick;;;;227;4;D;-21130,91;296250,7;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21130.91,296250.7));13,0391465;47,8012019;443
+57;Beratung & Service;infopool;Katechetisches Amt der Erzdiözese Salzburg;;Gaisbergstraße 7;0662/8047 4000;8047-184;katechetisches.amt@kirchen.net;http://www.kirchen.net;;Dr. Willi Rieder, Ingeborg Pfeffer, Waltraud Schobert;;;;383;2;;-21385,99;295414,4;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21385.99,295414.4));13,0642393;47,8005802;427
+58;Beratung & Service;infopool;Landesschulrat für Salzburg;;Mozartplatz    8-10;0662-8083-0;8042-2199;lsr-sbg@salzburg.at;http://www.land-sbg.gv.at/landesschulrat;;Prof. Mag. Johannes Plötzeneder;;;;967;8;;-21267,6;295650,1;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21267.6,295650.1));13,04864176;47,79899582;427
+59;Jugendkultur;Kultur & Zentren;Rockhouse Salzburg;nach Vereinbarung;Schallmooser Hauptstraße 46;0662 - 88 49 14;;;http://www.rockhouse.at;;Susanna Kuschnig;;Band Casting nur für Mädchen und Fruaen (von 14 bis 19 Jahren);;713;46;;-20506,78;296540,4;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-20506.78,296540.4));13,0589888;47,8069214;464
+60;Jugendkultur;Kultur & Zentren;Ballett Center am Rainberg Elke Schumann;;Am Rainberg 12;845 989;;;;;Elke Schumann;;;;38;12;;-22180,46;295110,7;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-22180.46,295110.7));13,0365063;47,7941165;455
+61;Beratung & Service;Bewohnerservice;Bewohnerservice Laufenstraße;Mo 14:00-17:00, Di&Do 09:00-12:00;Laufenstraße 36;0662 43 19 25;0662 - 43 19 25 -17;bws.liefering@sbg.at;http://www.stadt-salzburg.at/internet/politik_verwaltung/buergerservice/bewohnerservicestellen/bws_liefering_forell_386758/bws_liefering_208040.htm?redirect=404;;Mag. Herta Liko-Kirchmayr;;Stadtteilarbeit, Beratung Information;;451;36;;-23108,77;298180,8;MD06025;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-23108.77,298180.8));13,02404039;47,82185971;417
+62;Beratung & Service;Bewohnerservice;Bewohnerservice Itzling;"Mo,Di,Fr 09:00-12:00; Do 14:00-17:00";Reimsstraße 4;0662 45 54 32;0662 45 54 33;BWS.Itzling@diakoniewerk.at;http://www.stadt-salzburg.at/internet/politik_verwaltung/buergerservice/bewohnerservicestellen/bws_itzling_elisabet_332886/bewohnerservice_itzling_e_vorstadt_208030.htm;;Bac.(FH) Antje Kindler-Koch, Mag.a Sigrid Thor, Ursula Flatscher ;;Informationsdrehscheibe, Gemeinwesenarbeit, spezielle Angebote in den Stadtteilen;;513;4;;-21479,91;298475,1;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21479.91,298475.1));13,0457742;47,8245716;426
+63;Beratung & Service;Bewohnerservice;Bewohnerservice Maxglan&Taxham;Mo 14:00-18:00, Di&FR 09:00-12:00;Innsbrucker Bundesstraße 36;0662 / 428 579;;bws.maxglan-taxham@inode.at;;;;;;;;;;;;;;13,0204458;47,8055522;422
+64;Beratung & Service;Bewohnerservice;Bewohnerservice Aigen&Parsch;Mo 09:00-13:00, Di 09:00-13:00 & 14:00-16:00, Do 13:00-16:00, Fr 09:00-12:00;Aigner Straße 78;0662 / 625 008;;bws.aigen-parsch@diakoniewerk.at;;;;;;;;;;;;;;13,0800703;47,7834354;428
+65;Beratung & Service;Bewohnerservice;Bewohnerservice Forellenweg;Di 14:00-17:00, Do 09:00-12:00;Eugen-Müller-Straße 59;0662 - 43 19 25;;bws.liefering@sbg.at;http://www.stadt-salzburg.at/internet/politik_verwaltung/buergerservice/bewohnerservicestellen/bws_liefering_forell_386758/bws_stuetzpunkt_forellenweg_208074.htm;;Mag. Herta Liko-Kirchmayr, Mag. Natascha Zöchmeister;;Informationsdrehscheibe, Gemeinwesenarbeit, spezielle Angebote in den Stadtteilen;;1013;59;;-24740,18;299570,8;MD06025;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-24740.18,299570.8));13,0021764;47,834292;420
+66;Beratung & Service;Bewohnerservice;Bewohnerservice Gnigl&Schallmoos;Mo,Di,Do 09:00-13:00, Fr 09:00-12:00;Fritschgasse 5/2;0662/643 252;;bws.gnigl-schallmoos@diakoniewerk.at;;;;;;;;;;;;;;13,0619628;47,8089149;433
+67;Jugendkultur;Kultur & Zentren;Kulturzentrum Vereinshaus Gnigl;Mo-Fr 8:00-13:30, Fr 17:00-19:00;Minnesheimstraße 35;64 30 85;646856;office@kulturzentrum-gnigl.at;http://members.aon.at/kulturzentrum-gnigl/;;Renate Eichberger;;;;545;35;;-19442,79;297259,3;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-19442.79,297259.3));13,0727729;47,8139652;450
+68;Jugendkultur;Kultur & Zentren;ARGE Kulturgelände Nonntal;Mo-Fr 9-14 Uhr      Di-Fr 17-19 Uhr;Ulrike-Gschwandtner-Straße 5;-849403;84 87 84-13;office@argekultur.at;http://www.argekultur.at;;Geschäftsführung: Daniela Gmachl, Markus Grüner.;;Kulturzentrum;;361;16;;-20729,28;295107,3;MD06025;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-20729.28,295107.3));13,0560339;47,7941269;424
+69;Jugendkultur;Literatur & Neue Medien;Salzburger Literaturhaus Eizenbergerhof;;Strubergasse 23;422 411-0;422 411-13;info@literaturhaus-salzburg.at;http://www.literaturhaus-salzburg.at;;Leiter: Tomas Friedmann;;;;771;23;;-22606,37;296717;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-22606.37,296717));13,0306831;47,8085999;424
+70;Jugendkultur;Literatur & Neue Medien;Salzburger Spieltanzschule Scheidt-Santorricelli;div. Kurszeiten;Judengasse 13;841 208;841 208;buero@salzburger-spieltanzschule.at;http://www.salzburger-spieltanzschule.at/;;;;;;370;13;;-21428,67;295724,1;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21428.67,295724.1));13,0465433;47,7997999;434
+71;Jugendkultur;Literatur & Neue Medien;Stadtbücherei Salzburg / Mediathek;;Schumacherstraße 14;8072-2161;8072-3408;stadtbuecherei@stadt-salzburg.at;http://www.stadt-salzburg.at;;;;Institut für Erziehung durch Tanz, Musik und Sprache;;546;4;;-21744,9;296374,2;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21744.9,296374.2));13,02672381;47,81352597;417
+72;Jugendkultur;Kultur & Zentren;Salzburger Blasmusikverband, Bezirksverband Salzburg-Stadt;;Zugallistraße 12;-(0)662/8042-2614;-(0)662/8042-2612;office@blasmusik-salzburg.at ;http://www.blasmusik-salzburg.at/;;Geschäftsführer: Roman Gruber, Landesobmann Matthäus Gruber;;;;742;63;;-18970,26;293757,5;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-18970.26,293757.5));13,050776;47,7928828;423
+73;Jugendkultur;Kultur & Zentren;Salzburger Chorverband;;Zugallistraße 12;80 42 30 67;80 42 26 12;office@chorverbandsalzburg.at;http://www.chorverbandsalzburg.at/;;Beatrix Hinterhofer;;;;151;22;;-21057,59;294940,7;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21057.59,294940.7));13,050776;47,7928828;423
+74;Jugendkultur;Kultur & Zentren;musikum (Salzburger Musikschulwerk);Mo-Do 8.00-12.00 u. 13.00-16.00 Fr 8.00-12.00;Schwarzstraße 49;0662 / 879978;0662 / 879978-6;info@musikum-salzburg.at;http://www.musikum-salzburg.at/Default.aspx;;Pädagogisch-Künstlerischer Leiter - Mag. Michael Seywald;;;;556;36;;-21251,5;294974,2;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21251.5,294974.2));13,0381094;47,8083954;419
+75;Jugendkultur;Kultur & Zentren;Ballettschule Evita Easton;;Müllner Hauptstraße 7;640224;;;;;Cherry Luise Easton-Oberauer;;;;973;7;;-22163,96;296269,4;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-22163.96,296269.4));13,0365592;47,8045707;442
+76;Jugendkultur;Kultur & Zentren;TanzKult & Kunst;;Schallmooser Hauptstraße 5;0650-50 00 118;0662-88 20 03;tanzkult (@) aon.at;http://www.tanzkult.at/;;Ulrike Berghammer;;;;713;5;;-21127,09;296323;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21127.09,296323));13,0504617;47,8051665;442
+77;Jugendkultur;Kultur & Zentren;Tanzschule Brigitte Luger;;Bergstraße 22;+43 (0)662 / 88 11 71;;office@tanzschule-luger.at;http://www.tanzschule-luger.at/2012/;;;;;;90;22;;-21575,3;296181,8;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21575.3,296181.8));13,0446222;47,8038434;431
+78;Jugendkultur;Kultur & Zentren;Tanzschule Niki Seifert;;Saint Julien Straße 20;420683;420683-20;office@tanzschule-seifert.at;http://www.tanzschule-seifert.at;;Geschäftsführung: Karl Nikolaus Seifert;;;;771;6;;-22339,59;296807,6;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-22339.59,296807.6));13,0422523;47,8105923;425
+79;Jugendkultur;Kultur & Zentren;Elisabethbühne (E-Bühne);Karten Mo-Fr 9-13 Uhr und 14-18 Uhr;Erzabt-Klotz-Straße 22;8085-85;8085 - 33;info@schauspielhaus-salzburg.at;http://www.ebuehne.at;;"Kü.L: Renate Rustler-Ourth; Betr.Dir.DI W. Brandner;Schulklassen: Axel Norgauer;Jazz im Theater: Wal";;;;151;22;;-21067,59;294940,7;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21067.59,294940.7));13,0511597;47,7927984;422
+80;Treffpunkte;sport & fun;Freibad Alpenstrasse;Mai- September 9-19 Uhr (20 Uhr);Franz-Hinterholzerkai 8;+43662 623411;0662/623411-21;erholungsbetriebe@stadt-salzburg.at;;Hr. Priller;Verwaltung 0662/623411;"""Eintritt: 
+Erwachsene: EUR 3,50; Jugentliche: EUR 2,00 (bis 18 Jahre); Kinder: EUR 1,50 (bis 15 Jahre)""";"zusätzliche Angebote; Tischtennis, Volleyball, Tischfußball, Federball und Buffet";;188;8;;-20259,4;294932,9;MD06025;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-20259.4,294932.9));13,0623466;47,7925319;424
+81;Beratung & Service;problems?;Bahnhofssozial-dienst Bahnsteig 2b;Mo, Di, Do und Fr 9 - 19 Uhr, Mi 13:00 - 19 Uhr, Sa, So und Feiertage 14 - 18:30 Uhr;Ferdinand-Porsche-Straße 6;87 12 40;87 82 40;bahnhofsozialdienst@caritas-salzburg.at;http://www.kirchen.net/caritas/page.asp?id=1149;;Mag. Hannes Rothbucher;;Vermittlung zu Behörden und anderen sozialen Einrichtungen, Hilfe bei der Absicherung von akuten Notsituationen;;710;1;;-21556,24;297212,7;MD06025;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21556.24,297212.7));13,0428868;47,8117821;426
+82;Beratung & Service;infopool;Hypo-Szene-Club;Mo-Fr 8.30-12.30 u. 14.00-16.30 Uhr;Residenzplatz 7;8046 - 6612 oder 6613;8046 64646;office@hyposalzburg.at;http://www.hyposalzburg.at/;;Sabine Denk, Nicky Liedl;;;;638;7;;-21419,44;295629,3;MD06025;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21419.44,295629.3));13,0465881;47,7989898;433
+83;Treffpunkte;Jugendorganisation;Junge ÖVP;;Merianstraße 13;0662.8698-38;0662.8698-39;kontakt@jvp-salzburg.at;http://www.jvp-salzburg.at/wp/;;Josef Kraibacher;;;;134;58;;-19126,51594;295388,5478;MD06025;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-19126.515942,295388.54775));13,0525766;47,811282;428
+84;Treffpunkte;Jugendorganisation;Gewerkschaftsjugend Salzburg;;Markus-Sittikus-Straße 10;881 646;881 903;salzburg@oegb.or.at;http://www.oegj.at/;;Marco Kern;;;;495;10;;-21889,72;296597,5;MD06025;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21889.72,296597.5));13,0405103;47,8076608;427
+85;Treffpunkte;sport & fun;Eisarena;Sept.-März, täglich 8-23Uhr;Hermann-Bahr-Promenade 2;0662/ 623411-15;0662/ 623411-21;betriebe@stadt-salzburg.at;http://www.stadt-salzburg.at/internet/bildung_kultur/sport_und_erholung/sporthallen/eisarena_329407/oeffnungszeiten_eisarena_224398.htm?redirect=404;Hr. Wiedl;Ing. Josef Reichl;"Eintritt: <br>
+Erwachsene: EUR 3,30; Jugentliche: EUR 2,40 (bis 18 Jahre); Kinder: EUR 1,70 (bis 15 Jahre)";"Laufzeiten Hauptsaison ( Mitte Oktober-Ende Februar) 10-16.30 und 19.30-21.30 Uhr; Vor- und Nachsaison nur Nachmittagslauf";;297;2;;-20341,01;295572,9;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-20341.01,295572.9));13,05961668;47,7982709;425
+86;girls only;Mädchentreff;Karin Mitterbauer (Trommlerinnengruppe Affenbrot);nach Vereinbarung;Eberlingasse 4;+43 (0) 650 4401296;;praesenz@hotmail.com;http://www.affenbrot.at oder www.virgil.at;;Karin Mitterbauer;;Trommelunterricht, Spiel-mit-Aktionen mit der Gruppe Affenbrot, Berufsfortbildung, Kreative Projekte;;313;8;;-21111,15;294245,2;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21111.15,294245.2));13,0538968;47,785542;425
+87;Beratung & Service;problems?;Rainbows;Mo-Fr 8:15-16:00;Münchner Bundesstr. 121a OG;0662 82 56 75;0662/82 56 75;salzburg@rainbows.at;http://www.rainbows.at/bundeslaender/salzburg/start.php;;;Kosten nach Selbsteinschätzung, Ermäßigung für Geschwister;Gruppentreffen für Jugendliche mit Trennungserfahrungen (Scheidung, Todesfall);Teilnahme nur nach Voranmeldung;555;14;;-22668,45;295298,2;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-22668.45,295298.2));13,0007009;47,8290912;421
+88;girls only;problems?;Akzente Salzburg / MAKE IT - Büro für Mädchenförderung;Mo - Fr 8 - 12 Uhr;Glockengasse 4c;0662 84 92 91 11;0662 84 92 91 11;office@akzente.net;http://www.akzente.net;;Alexander Mitter;;Informationen zu mädchenrelevanten Projekten, Öffentlichkeitsarbeit, Vermittlung von Selbsthilfegruppen für Mädchen und junge Frauen die sexuell mißbraucht wurden;;227;4;C;-21092,89;296254,3;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21092.89,296254.3));13,05080697;47,80458972;469
+89;Jugendkultur;Literatur & Neue Medien;Aktion Film Salzburg;;Imbergstraße 2/1.Stock;822 023;822 023 - 4;m.seibt(at)imb-salzburg.at;http://www.imb-salzburg.at/information/kontakt.html;;Mag. Martin Seibt;;;;786;9;;-21454,56;294268,8;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21454.56,294268.8));13,049071;47,8005507;431
+90;Jugendkultur;Kultur & Zentren;Josef-Brunauer-Zentrum;mo-do 9-14, fr 9-16;Elisabethstraße 45;45 42 65-0;45 42 65-0;;http://www.parkhotelbrunauer.at/;;;;;;134;45;A;-21714,61;297606,1;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21714.61,297606.1));13,0430015;47,8163321;420
+91;Jugendkultur;Kultur & Zentren;Salzburger Bachgesellschaft;;Kaigasse 36/I;435 371 - 0;435 371 - 4;salzburgerbachgesellschaft@aon.at;http://www.salzburger-bachgesellschaft.at;;;;;;67;4;;-22309,05;296389,6;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-22309.05,296389.6));13,0506731;47,7965986;441
+92;Jugendkultur;Politik & Gesellschaft;Friedensbüro Salzburg;Mo & Mi 09:00-11:00, Di & Do 15:00-18:00;Franz-Josef-Straße 3;873 931;873 931;office@friedensbuero.at;http://www.friedensbuero.at/;;;;;;759;47;;-21246,39;295882,3;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21246.39,295882.3));13,0422628;47,8069219;431
+93;Jugendkultur;Kultur & Zentren;Salzburger Landestheater;Mo-Fr 10.00-17.00, Sa 10.00-14.00;Schwarzstraße 22;Hotline 87 15 12 - 21 Reservierung 87 15 12 -21;87 15 12 - 70;service@salzburger-landestheater.at;http://www.salzburger-landestheater.at/;;Int. Dr. Carl Philip von Maldeghem;;;;746;22;;-21705,63;296070,7;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21705.63,296070.7));13,0428878;47,8029716;427
+94;Jugendkultur;Kultur & Zentren;Volkstanzgruppe des Salzburger Jugendferienwerks;;Lieferingerhauptstr. 106;Tel./Fax: 0662 - 431520;;info@mesnerhaus-liefering.at;http://www.mesnerhaus-liefering.at/index.php;;Obm. Dr. Ludwig Graupner (32 70 32);;;;258;42;;-23342,4;296961,9;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-23342.4,296961.9));13,0096265;47,8236362;420
+95;Beratung & Service;problems?;Sucht- und Drogenberatungs-stelle;Mo 9 - 12 und 13 - 17.00 Uhr, Di 13 - 17 Uhr, Do 9 - 12 und 13 - 17 Uhr, Fr 9 - 12 Uhr;Saint-Julien-Straße 9a;87 96 82;0810 9554 279986;drogenberatung.salzburg@lph-sucht.at;http://www.stadt-salzburg.at/internet/leben_in_salzburg/gesellschaft_soziales/kinder_jugendhilfe/beratungsstellen_343065/sucht_und_drogenberatung_327315.htm?redirect=404;;DSA Manfred Hoy;;Beratung, Betreuung von Drogenabhängigen und deren Angehörigen, Telefonberatung, psychotherapeutische Hilfe, Vermittlung von Langzeittherapien, psychosoziale Begleitung bei Substitutionsbehandlungen;;678;9;A;-21957,8;296979,2;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21957.8,296979.2));13,0393352;47,8110433;422
+96;girls only;problems?;Mutterberatung;Mo - Fr 8:30 - 12 Uhr, Mo 14 - 17:30, Di - Do: 14 - 16 Uhr;Anton-Neumayr-Platz 3\3;0662 80 42 28 87, 0662 80 42 28 94;;;;;;;psychologische Beratung, Telefonberatung, Verleih z. B. von Tragetüchern, offener Wickelraum, Rückbildungsgymnastik, Eltern-Kind-Gruppen;;51;3;;-21985,02;295883,2;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21985.02,295883.2));13,0391465;47,8012019;443
+97;girls only;problems?;Verein Frauentreffpunkt;Mo-Fr 9 - 13 Uhr;Paris-Lodron-Straße 32;0662 87 54 98;0662 87 65 22;office@frauentreffpunkt.at;http://www.frauentreffpunkt.at/;;;;parteiliche Beratung für Mädchen und Frauen,  Treffpunkt;Beratung ganztägig nach vorheriger Vereinbarung;571;32;;-21183,98;296448,2;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21183.98,296448.2));13,0499271;47,803065;434
+98;Beratung & Service;problems?;Kinderschutz-zentrum;Mo - Do 9:00 - 17:00 Uhr, Fr 09:00-14:00;Leonhard-von-Keutschach-Straße 4;0662 44 9 11;0662/44 9 11 - 61;office@kinderschutzzentrum.at ;http://www.kinderschutzzentrum.at/;;Mag. Peter Trattner;;psychosoziale und rechtliche Beratung (u. a. bei sexuellen Mißbrauch und Gewalt in der Familie);;662;50;;-22924,02;297022,1;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-22924.02,297022.1));13,0293596;47,8102985;423
+99;Beratung & Service;Burschen und Männer;Männer gegen Männergewalt;Mo und Do 9 - 12 Uhr, Di und Mi 17 - 20 Uhr;Bergstraße 22 / 4. Stock;0662 88 34 64;+43(0)662-88 34 63;salzburg@gewaltberatung.org;http://www.gewaltberatung.org/html/start.htm;;Mag. Harald Burgauner;;Kontakt- und Beratungsstelle, Gruppenangebote;Beratung nur mit telefonischer Voranmeldung!;147;7;;-21993,66;296672,3;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21993.66,296672.3));13,0446222;47,8037434;431
+100;Beratung & Service;infopool;Akzente-Jugendinfo;Mo - Fr 11 - 17:30 Uhr;Anton-Neumayr-Platz 3;+43 (0)662/849291-71;;info@akzente.net;http://jugendinfo.akzente.net/;;;;Veranstaltungen, Jugendschutz, Sport, Nachtbusse, Infos über EU-Jugend-Förderprogramme, Ferialjobbörse, Move for Fun, World Wide Web, Ausbildungen, Weiterbildung, Stipendien, SchulsprecherInnnentreffen, Schülerkalender, Schule;;163;1;;-21670,4;297350;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21670.4,297350));13,0391465;47,8012019;443
+101;Beratung & Service;problems?;HOSI - Homosexuellen Initiative Salzburg;"Mo,Di,Mi 16:00-19:00; Fr 15:00-19:00";Gabelsbergerstraße 26;0662 43 59 27;0662 43 59 27 27;office@hosi.or.at;http://www.hosi.or.at;;;;telefonische Beratung, Coming-Out-Gruppen, Bibliothek, Videothek;;973;11;;-22225,12;296389,9;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-22225.12,296389.9));13,0496338;47,8084181;432
+102;Jugendkultur;Politik & Gesellschaft;Südwind Entwicklungspolitik, Verein für entwicklungspolitische Bildungs- und Öffentlichkeitsarbeit;an Schultagen mo-do 10 - 14, di 10 - 16;Ulrike-Gschwandtner-Straße 5;827 813;829 114;office@suedwindsalzburg.at;http://www.suedwindsalzburg.at/;;Sonja Schacher;;;;398;4;;-22728,14;295268;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-22728.14,295268));13,0560339;47,7941269;424
+103;Jugendkultur;Politik & Gesellschaft;Jugendbüro der Stadt Salzburg;;Mirabellplatz 4;8062 - 2976;;jugendbuero@stadt-salzburg.at;http://www.stadt-salzburg.at/internet/leben_in_salzburg/kinder_jugend/jugend_333744/jugendbeauftragte_314054.htm;;Isabel Bojanovsky;;;;546;4;;-21714,9;296364,2;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21714.9,296364.2));13,0416993;47,8054254;426
+104;Treffpunkte;Jugendorganisation;Österreichisches Jugendrotkreuz;;Otto Holzbauer Straße 1-3;8042-4224 od. 4225;8042-4226;jugendrotkreuz@salzburg.gv.at;http://www.jugendrotkreuz.at;;;;;;967;10;;-21280,33;295617,2;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21280.33,295617.2));13,0671668;47,7774384;425
+105;Treffpunkte;Jugendorganisation;Österreichischer Alpenverein, Sektion Salzburg und Alpenvereinsjugend;Mo-Do 12:00-17:00, Fr: 10:00-14:00;Nonntaler Hauptstraße 86;822 692;827 570;service@alpenverein-salzburg.at;http://www.oeav.at/salzburg/index.htm;;MA Katzengruber Elisabeth;;;;556;86;;-21008,46;294074,9;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21008.46,294074.9));13,0521231;47,7849742;424
+106;Treffpunkte;Jugendorganisation;Rote Falken Salzburg;;Auerspergstraße 42;870 900-28;870 900-19;fritz.danko@blackbox.at;http://www.rotefalken.at;;Harald Brantner;;;;63;42;;-21220,69;296513,3;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21220.69,296513.3));130492416;47,8067761;433
+107;girls only;sport & fun;ASKÖ Salzburg;nach Vereinbarung;Parscher Straße 4;0662 871623 14;+43 (0)662 871623 - 4;office@askoe-salzburg.at;http://www.askoe-salzburg.at/de;;Birgit Riener;;Active-girls-do-it-Programme, Mädchenschwerpunkt bei div. Sportangeboten, z.B. Beachvolleyball, Volleyball, Judo, Selbstverteidigung, Lacross, Hip Hop, Breakdance, Kräftigungsgymnastik, Aerobic, Mädchenpower, Bodymovement, New Dance Improvisation;;573;4;;-19773,73;296976;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-19773.73,296976));13,0682343;47,8104153;436
+108;girls only;sport & fun;Ravens Salzburg;Trainingszeiten: Donnerstag u. Sonntag abends auf der Kunsteisbahn im Volksgarten;Hermann-Bahr-Promenade 2;0662 840 426;;;;;Thomas Seywald;;Eishockey für Mädchen;;297;2;;-20336,01;295587,9;MD06025;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-20336.01,295587.9));13,05961668;47,7982709;425
+109;Treffpunkte;sport & fun;Badesee Liefering;ganztägig;Schmiedingerstraße;0662/432440;0662/623411-21;betriebe@stadt-salzburg.at;http://www.stadt-salzburg.at/internet/bildung_kultur/sport_und_erholung/hallenbad_freibaeder/badesee_liefering_salzachseen_323515.htm;Hr. Oberfrank;Verwaltung 0662/623411;Freier Eintritt;zusätzliche AngeboteFußball, Volleyball und Buffet;;733;;;-23681,1206;300014,2344;MD06025;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-23681.120604,300014.23441800003));13,02183804;47,83326677;406
+110;Treffpunkte;Jugendzentrum;Ludothek der Katholischen Jungschar;Di u Fr 14-17 Uhr;Kaigasse 26;Telefon: 0662/8047-2020;Fax: 0662/8047-2029;office@komm.kirchen.net;http://www.kirchen.net;;;;;;375;26;;-21173,99;295391,1;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21173.99,295391.1));13,0498755;47,7964962;448
+111;Jugendkultur;Kultur & Zentren;Collegium Iuvenale Salisburgense CIS;;Schwarzenbergpromenade 39;624 474;;;;;Univ.-Prof. Jürgen Geise;;;;743;39;B;-18232,32;294263,7;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-18232.32,294263.7));13,0882679;47,7863817;443
+112;Jugendkultur;Kultur & Zentren;Jeunesse Salzburg Stadt / Musikalische Jugend Österreichs;Mo-Do 9-14 Fr 9-16 Uhr;Schwarzstraße 26;889 40 - 24, Tickets 873 154 - 0;872 996, Tickets 873 154;tickets@jeunesse.at;http://www.jeunesse.at/fset.php?id=4297&sprache=Deutsch;;Georg Reimpell;;;;746;26;;-21763,34;296146,4;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21763.34,296146.4));13,0415776;47,8038138;425
+113;Beratung & Service;infopool;Young Austria, Österreichisches Jugendferienwerk;;Alpenstraße 108;625 758-0;625-758-2;office@youngaustria.com;http://www.youngaustria.at;;;;;;31;108;A;-19853,85;293008,5;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-19853.85,293008.5));13,0681609;47,7754171;427
+114;Treffpunkte;sport & fun;Sporthalle Alpenstrasse;Täglich 8-22Uhr;Otto-Holzbauer-Straße 5;+43662 623344;0662/623344-17;betriebe@stadt-salzburg.at;http://www.salzburg.info/de/kunst_kultur/sport/veranstaltungsorte/sporthalle_alpenstrasse;Hr. Schönberger;"Sportl. Nutzung-Sportreferat- Fr. Schiefer 0662/8072-3431; Sonderveranstaltungen/ Schulsport Mag. Ab";Vermietung von Sport-Trainingszeiten durch das Sportreferat der Stadt Salzburg- Ansprechpartner und Gebührenauskunft: Hr. Jungwirth, Fr. Schiefer;Fit- Gymnastik - Anmeldung vor Ort;;31;100;;-19816,07;293164,9;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-19816.07,293164.9));13,0670851;47,7766381;425
+115;Treffpunkte;Jugendzentrum;ZAKK, Kommunikationszentrum und Spielothek der Kinderfreunde;;Fürbergstrasse 30/7;0662/455488;0662/455488-13;office@sbg.kinderfreunde.at;http://www.kinderfreunde.at;;;;;;737;18;;-21268,77;298246;;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-21268.77,298246));13,0660034;47,807128;445
+116;girls only;sport & fun;ASK - J&J, Fußball;jeden Dienstag von 19.30 - 21.00 Uhr beim ASK-Sportplatz;Eichetstraße 29 - 31;0662 6386 721 oder 0664 1554154;;eva.lindner@wuestenrot.at;;;Eva Lindner;;Fußball für Mädchen;;130;29;;-23884,37;294919,6;MD06025;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-23884.37,294919.6));13,01309645;47,7912607;427
+117;girls only;problems?;avos - Arbeitskreis für Vorsorgemedizin Salzburg / ASKÖ;;Elisabethstraße 2;0662/88 75 88-0;0662/88 75 88-16;avos@avos.at;http://www.avos.at;;Dr. Mag. Thomas Diller;;;;31;107;;-19728,33;292937,9;MD06025;MDSYS.SDO_GEOMETRY(2001,31255,NULL,MDSYS.SDO_ELEM_INFO_ARRAY(1,0,6000,4,1,1),MDSYS.SDO_ORDINATE_ARRAY(1,0,0,-19728.33,292937.9));13,0422382;47,8103623;425
+118;Salzwand;Graffiti;Unterführung Alpenstraße;jederzeit;Alpenstraße 36B;;;1306596279;421;;Isabel Bojanovsky;;öffentliche Plätze zum legalen sprayn von Graffitis;;;;;;;;;13,06596279;47,78881768;421
+119;Salzwand;Graffiti;Kinderverkehrsgarten im Stölzlpark ;jederzeit;Bindergasse 11;;;1302019626;416;Rückseite des Hauses;Isabel Bojanovsky;;öffentliche Plätze zum legalen sprayn von Graffitis;;;;;;;;;13,02019626;47,80355483;416
+120;Salzwand;Graffiti;Spielplatz Rauchenbichl;jederzeit;Rauchenbichlerstraße 14;;;1305012167;413;Außenseite der Sanitäranlage;Isabel Bojanovsky;;öffentliche Plätze zum legalen sprayn von Graffitis;;;;;;;;;13,05012167;47,8265342;413
+121;Salzwand;Graffiti;Preuschenpark;jederzeit;Dr.-Petter-Straße 10;;;1307626918;420;Außenseite der Sanitäranlage;Isabel Bojanovsky;;öffentliche Plätze zum legalen sprayn von Graffitis;;;;;;;;;13,07626918;47,79867684;420
+122;Salzwand;Graffiti;Lehen 1 Hochwasserwand;jederzeit;Franz-Martinstraße 2;;;130352354;406;Teile der Hochwasserschutzwand;Isabel Bojanovsky;;öffentliche Plätze zum legalen sprayn von Graffitis;;;;;;;;;13,0352354;47,81675687;406
+123;Salzwand;Graffiti;Lehen 2 Gailenbachweg;jederzeit;Gailenbachweg 17;;;1302278191;410;Trafohäuschen;Isabel Bojanovsky;;öffentliche Plätze zum legalen sprayn von Graffitis;;;;;;;;;13,02278191;47,8114325;410
+124;Salzwand;Graffiti;Volksgarten Toilettenhäuschen;jederzeit;Hundertwasserallee;;;130599305;416;Außenseite der Sanitäranlage;Isabel Bojanovsky;;öffentliche Plätze zum legalen sprayn von Graffitis;;;;;;;;;13,0599305;47,79706336;416
+125;Salzwand;Graffiti;Tenniscourt Süd;Nach Absprache;Berchtesgadener Straße 35;;;1304235935;422;nach Absprache mit dem Tenniscourt;Isabel Bojanovsky;;öffentliche Plätze zum legalen sprayn von Graffitis;;;;;;;;;13,04235935;47,7752246;422
+126;Salzwand;Graffiti;Unterführung Rahthaus (nach Absprache);Nach Absprache;Rudolfskai 2;;;1304463923;415;nach Absprache mit dem Jugendbüro;Isabel Bojanovsky;;öffentliche Plätze zum legalen sprayn von Graffitis;;;;;;;;;13,04463923;47,80047225;415
+127;Salzwand;Graffiti;Pfadfinderheim Salzburg;jederzeit;Fürstenallee 45;;;1305207968;419;;Isabel Bojanovsky;;öffentliche Plätze zum legalen sprayn von Graffitis;;;;;;;;;13,05207968;47,78527106;419
+128;Salzwand;Graffiti;Postsportverein Schallmoos ;Nach Absprache;Vogelweiderstraße 114;8072 - 2976;;jugendbuero@stadt-salzburg.at;http://www.stadt-salzburg.at/internet/leben_in_salzburg/kinder_jugend/graffiti_ganz_legal_220651.htm;;Isabel Bojanovsky;;öffentliche Plätze zum legalen sprayn von Graffitis;;;;;;;;;13,054531;47,821028;
+129;Salzwand;Graffiti;ASKÖ Sporthalle, Parkplatz;jederzeit;Kugelhofstraße 1;8072 - 2976;;jugendbuero@stadt-salzburg.at;http://www.stadt-salzburg.at/internet/leben_in_salzburg/kinder_jugend/graffiti_ganz_legal_220651.htm;;Isabel Bojanovsky;;öffentliche Plätze zum legalen sprayn von Graffitis;;;;;;;;;13,014486;47,792501;
+130;Treffpunkte;sport & fun;Skatepark Alpenstraße;;Alpenstraße 137;8072 - 2976;;jugendbuero@stadt-salzburg.at;https://www.stadt-salzburg.at/internet/leben_in_salzburg/kinder_jugend/sportplaetze_freiraeume.htm;;Isabel Bojanovsky;;;;;;;;;;;13,070233;47,770639;
+131;Treffpunkte;sport & fun;Klettern Müllnerschanze;;Mönchsberg 30;8072 - 2976;;jugendbuero@stadt-salzburg.at;https://www.stadt-salzburg.at/internet/leben_in_salzburg/kinder_jugend/sportplaetze_freiraeume.htm;;Isabel Bojanovsky;;;;;;;;;;;13,035753;47,804965;
+132;Treffpunkte;sport & fun;Klettersteig City Wall Glockengasse;;Glockengasse 4D;8072 - 2976;;jugendbuero@stadt-salzburg.at;https://www.stadt-salzburg.at/internet/leben_in_salzburg/kinder_jugend/sportplaetze_freiraeume.htm;;Isabel Bojanovsky;;;;;;;;;;;13,050618;47,804213;
+133;Treffpunkte;sport & fun;Slackline Park Glanspitz;;Rechte Glanzeile 52;8072 - 2976;;jugendbuero@stadt-salzburg.at;https://www.stadt-salzburg.at/internet/leben_in_salzburg/kinder_jugend/sportplaetze_freiraeume.htm;;Isabel Bojanovsky;;;;;;;;;;;13,030574;47,82122;
+134;Treffpunkte;sport & fun;Beachvolleyballplatz Dr. Hans Lechner Park;;Dr. Hans Lechner Park;8072 - 2976;;jugendbuero@stadt-salzburg.at;https://www.stadt-salzburg.at/internet/leben_in_salzburg/kinder_jugend/sportplaetze_freiraeume.htm;;Isabel Bojanovsky;;;;;;;;;;;13,052133;47,809953;
+135;Treffpunkte;sport & fun;Salzbeach Volksgarten;;Hunderwasserallee;8072 - 2976;;jugendbuero@stadt-salzburg.at;https://www.stadt-salzburg.at/internet/leben_in_salzburg/kinder_jugend/sportplaetze_freiraeume.htm;;Isabel Bojanovsky;;;;;;;;;;;13,060177;47,796365;
+136;Treffpunkte;sport & fun;Bolzkäfig Lehen;;Schumacherstraße 18;8072 - 2976;;jugendbuero@stadt-salzburg.at;https://www.stadt-salzburg.at/internet/leben_in_salzburg/kinder_jugend/sportplaetze_freiraeume.htm;;Isabel Bojanovsky;;;;;;;;;;;13,02586;47,814519;
+137;Treffpunkte;sport & fun;Bolzkäfig Volksgarten;;Hermann Bahr Promenade 4-6;8072 - 2976;;jugendbuero@stadt-salzburg.at;https://www.stadt-salzburg.at/internet/leben_in_salzburg/kinder_jugend/sportplaetze_freiraeume.htm;;Isabel Bojanovsky;;;;;;;;;;;13,06129;47,79745;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;

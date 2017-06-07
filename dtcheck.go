@@ -28,9 +28,9 @@ type DateTimeChecker struct {
 }
 
 type Occurence struct {
-	Line    int
-	Offsets [][]int
-	XPath   *string
+	Line    int     `json:",omitempty"`
+	Offsets [][]int `json:",omitempty"`
+	XPath   *string `json:",omitempty"`
 }
 
 type DateTimeCheckResponse struct {
