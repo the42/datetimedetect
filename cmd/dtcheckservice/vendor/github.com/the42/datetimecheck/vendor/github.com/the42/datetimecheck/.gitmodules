@@ -1,4 +1,0 @@
-[submodule "cmd/dtcheckservice/swagger-ui"]
-	path = cmd/dtcheckservice/swagger-ui
-	url = https://github.com/the42/swagger-ui.git
-	branch = dtcheckservice

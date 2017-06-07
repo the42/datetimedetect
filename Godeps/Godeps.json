@@ -1,7 +1,7 @@
 {
 	"ImportPath": "github.com/the42/datetimecheck",
 	"GoVersion": "go1.7",
-	"GodepVersion": "v75",
+	"GodepVersion": "v79",
 	"Deps": [
 		{
 			"ImportPath": "github.com/rakyll/magicmime",
